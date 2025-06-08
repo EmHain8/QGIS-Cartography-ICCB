@@ -3,8 +3,6 @@
 
 Welcome to the QGIS Cartography ICCB course!
 
-Use the sidebar to navigate through the modules.
-
 In this course, we will endeavour to learn about:
 - Integrating R and QGIS
 - Establishing efficient workflows for repetitive work using: styles, layouts, templates
