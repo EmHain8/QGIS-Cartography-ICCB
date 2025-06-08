@@ -1,7 +1,6 @@
-
 ---
 layout: default
-title: Resources
+title: "Resources"
 ---
 
 {% include nav.md %}
