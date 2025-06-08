@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Get Ready
+nav_order: 1
 ---
 
 {% include nav.md %}
