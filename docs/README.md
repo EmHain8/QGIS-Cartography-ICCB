@@ -1,4 +1,4 @@
-# Introduction
+# Welcome to QGIS Cartography ICCB
 
 
 Welcome to the QGIS Cartography ICCB course!

@@ -14,8 +14,9 @@
   "license": "ISC",
   "devDependencies": {
     "@vuepress/bundler-vite": "^2.0.0-beta.67",
+    "@vuepress/theme-default": "^2.0.0-rc.108",
+    "gh-pages": "^4.0.0",
     "markdown-it-emoji": "^2.0.0",
-    "vuepress": "^2.0.0-beta.67",
-    "gh-pages": "^4.0.0"
+    "vuepress": "^2.0.0-rc.23"
   }
 }
