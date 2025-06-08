@@ -1,4 +1,9 @@
-# Part 2: Build a Beautiful Map
+---
+layout: default
+title: "Part 2: Build a Beautiful Map"
+---
+
+{% include nav.md %}
 
 We will cover:
 - Adding items
