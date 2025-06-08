@@ -1,4 +1,4 @@
-# Q2- QGIS Carto Koala
+# QGIS Cartography - Koala Case Study
 QGIS session for the ICCB Tutorial: **Open Source Geospatial Tools for Conservation under Climate Change - a Koala Case Study** 
 
 Producing a cartographic product is important to effectively display the results of your investigation. It’s incredible that ALL of that work can be simply represented, but then, that shows a element of success in your work.  
