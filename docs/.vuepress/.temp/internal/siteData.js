@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"QGIS Cartography ICCB\",\"description\":\"Course materials and resources\",\"head\":[],\"locales\":{}}")
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-AU\",\"title\":\"QGIS Cartography ICCB\",\"description\":\"Course materials and resources for ICCB attendees\",\"head\":[],\"locales\":{}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

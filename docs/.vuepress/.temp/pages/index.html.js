@@ -1,4 +1,6 @@
-export const data = JSON.parse("{\"key\":\"v-8daa1a0e\",\"path\":\"/\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{},\"headers\":[],\"git\":{\"updatedTime\":null,\"contributors\":[]},\"filePathRelative\":\"README.md\"}")
+import comp from "C:/01_GEOSPATIAL/02_PROJECTS/ICCB/iccb_course/QGIS-Cartography-ICCB/docs/.vuepress/.temp/pages/index.html.vue"
+const data = JSON.parse("{\"path\":\"/\",\"title\":\"\",\"lang\":\"en-AU\",\"frontmatter\":{}}")
+export { comp, data }
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()
