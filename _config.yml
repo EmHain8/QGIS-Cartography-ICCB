@@ -1,2 +1,23 @@
-remote_theme: just-the-docs/just-the-docs
 title: QGIS Cartography ICCB
+description: A course on cartography using QGIS for ICCB
+remote_theme: just-the-docs/just-the-docs
+
+# Enable this for GitHub Pages
+plugins:
+  - jekyll-remote-theme
+
+# Optional: GitHub Pages URL (replace with your repo name if needed)
+# baseurl: "/QGIS-Cartography-ICCB"
+
+# Sidebar navigation
+nav:
+  - title: Home
+    url: /
+  - title: Get Ready
+    url: /get-ready
+  - title: Part 1 - Styling & Data
+    url: /part1-styling-data
+  - title: Part 2: Build a Cartographic Product
+    url: /part2-build-map
+  - title: Resources
+    url: /resources
