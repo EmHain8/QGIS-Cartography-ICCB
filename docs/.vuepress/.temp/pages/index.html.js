@@ -1,5 +1,5 @@
 import comp from "C:/01_GEOSPATIAL/02_PROJECTS/ICCB/iccb_course/QGIS-Cartography-ICCB/docs/.vuepress/.temp/pages/index.html.vue"
-const data = JSON.parse("{\"path\":\"/\",\"title\":\"Welcome to QGIS Cartography ICCB\",\"lang\":\"en-AU\",\"frontmatter\":{}}")
+const data = JSON.parse("{\"path\":\"/\",\"title\":\"Welcome to QGIS Cartography ICCB\",\"lang\":\"en-US\",\"frontmatter\":{}}")
 export { comp, data }
 
 if (import.meta.webpackHot) {
