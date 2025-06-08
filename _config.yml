@@ -15,9 +15,9 @@ nav:
     url: /
   - title: Get Ready
     url: /get-ready
-  - title: Part 1 - Styling & Data
+  - title: "Part 1 - Styling & Data"
     url: /part1-styling-data
-  - title: Part 2: Build a Cartographic Product
+  - title: "Part 2: Build a Cartographic Product"
     url: /part2-build-map
   - title: Resources
     url: /resources
