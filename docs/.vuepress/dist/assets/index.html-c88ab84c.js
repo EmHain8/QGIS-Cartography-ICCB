@@ -1,1 +1,0 @@
-import{_ as t,o as s,c as n,a as o}from"./app-a3fffd7a.js";const l={};function r(c,e){return s(),n("div",null,e[0]||(e[0]=[o("p",null,"'# Welcome to My Course'",-1),o("p",null,"This is the home page of the course website.",-1)]))}const i=t(l,[["render",r],["__file","index.html.vue"]]);export{i as default};
