@@ -4,8 +4,6 @@ title: Resources
 nav_order: 4
 ---
 
-{% include nav.md %}
-
 - [Style resources](https://hub.qgis.org/styles/)  
 - [Spatial Thoughts](https://spatialthoughts.com/learning-paths/)  
 - [Qgis expressions](https://www.youtube.com/watch?v=h-mpUkwDdOQ)  
