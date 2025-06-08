@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+nav_order: 0
+---
 # Welcome to QGIS Cartography ICCB
 
 Welcome to the QGIS Cartography ICCB course!
