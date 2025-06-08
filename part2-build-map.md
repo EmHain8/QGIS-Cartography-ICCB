@@ -4,8 +4,6 @@ title: "Part 2: Build a Beautiful Map"
 nav_order: 3
 ---
 
-{% include nav.md %}
-
 We will cover:
 - Adding items
 - Rounded frames
