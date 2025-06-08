@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Part 1: Styling Data
+title: "Part 1: Styling Data"
 ---
 
 {% include nav.md %}
