@@ -1,4 +1,4 @@
-<template><div><p>'# Introduction'</p>
+<template><div><h1 id="introduction" tabindex="-1"><a class="header-anchor" href="#introduction"><span>Introduction</span></a></h1>
 <p>Welcome to the QGIS Cartography ICCB course!</p>
 <p>Use the sidebar to navigate through the modules.</p>
 <p>In this course, we will endeavour to learn about:</p>

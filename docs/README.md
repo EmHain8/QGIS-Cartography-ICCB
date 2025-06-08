@@ -1,4 +1,4 @@
-'# Introduction' 
+# Introduction
 
 
 Welcome to the QGIS Cartography ICCB course!
