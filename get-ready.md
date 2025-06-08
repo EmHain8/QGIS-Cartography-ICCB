@@ -1,4 +1,10 @@
-# Get Ready
+---
+layout: default
+title: Get Ready
+---
+
+{% include nav.md %}
+
 [Download QGIS 3.40.7](https://qgis.org/download/) (current Long Term Release) using the [OSGeo4W installer](https://qgis.org/resources/installation-guide/#online-osgeo4w-installer)
 
 ## Install
