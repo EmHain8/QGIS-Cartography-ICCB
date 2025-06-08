@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+nav_order: 0
+---
 # Welcome to the QGIS Cartography Course
 
 ## Before you start
