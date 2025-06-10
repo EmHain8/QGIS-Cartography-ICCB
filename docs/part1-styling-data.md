@@ -47,14 +47,14 @@ One of the important aspects to an efficient mapping product, is keeping it tidy
 Accessing the data via the `Browser` panel, we will add the data to the groups. 
 > - Ensure you have the `Browser` panel open.  
 > ![Browser panel](../media/browser.png)  
-> - At the top of the `Browser`, click on the arrow next to `Project Home` to collapse it  
+> - At the top of the `Browser`, click on the arrow next to `Project Home` to expand it  
 > ![Browser panel](../media/Project_home.png)  
-> - Collapse the Data folder  
+> - Expand the Data folder  
 
 We are going to select multiple files and load them under the group headings 
 > - First, in the `Layers` panel, click on the group 'Original data'  
 > ![Select group](../media/select_group.png)  
-> - Then head over to the `Browser` panel and whilst holding down the ctrl key, click on *current_distribution_RF_1.tif*, and the *seq_boundary* (in the geopackage)  
+> - Then head over to the `Browser` panel and whilst holding down the ctrl key, click on 'current_distribution_RF_1.tif', and the 'seq_boundary' (in the geopackage)  
 > - With all of these selected, click on the `Add selected layer` button at the top of the `Browser` panel  
 > ![Select group](../media/add-selected-layers.png)  
 > - This results in layers nested under the 'Original data' group  
@@ -74,7 +74,13 @@ We are going to access some data now from the service we have loaded. We can use
 > - Click on `Add`  
 >![Browser panel](../media/data-source-manager-load.png)  
 
+We won't close this yet as we need to add in river and places.
 
-- service
-- rivers
+> - Above the layer list, there is a search bar, type in 'water', we are looking for polyline dataset for a river  
+> - Expand 'Inland River' and select 'WatercourseIdentificationMap' > 'Watercourse'
+> ![Browser panel](../media/data-watercourse.png)
+> - Click `Add with Filter`  
+> - The `Expresion Builder` will come up. Add in the following ` "name" is NOT NULL`  
+> ![Browser panel](../media/data-add-filter.png)
+
 
