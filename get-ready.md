@@ -29,9 +29,13 @@ Create this somewhere logical:
 Save the project file to Products and name it `ICCB_Koala.qgz` 
 
 ## Install Data Services
-Load the following XYZ Tiles: **QLD Imagery** https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D
+Load the following XYZ Tiles:   
+**QLD Imagery**   
+https://spatial-img.information.qld.gov.au/arcgis/rest/services/Basemaps/LatestStateProgram_AllUsers/ImageServer/tile/%7Bz%7D/%7By%7D/%7Bx%7D  
 
-Load the following ArcGIS REST Server: **QLD** https://spatial-gis.information.qld.gov.au/arcgis/rest/services
+Load the following ArcGIS REST Server:  
+**QLD**  
+https://spatial-gis.information.qld.gov.au/arcgis/rest/services  
 
 ### How to load a connection
 *This works for both the XYZ Tile and the ArcGIS REST Server.*  
