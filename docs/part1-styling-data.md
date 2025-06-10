@@ -25,7 +25,9 @@ Accessing the data via the `Browser` panel, we will add the data to the groups.
 We are going to select multiple files and load them under the group headings 
 > - First, in the `Layers` panel, click on the group 'Original data'  
 > ![Select group](../media/select_group.png)  
-> - Then head over to the `Browser` panel and whilst holding down the ctrl key, click on:  
+> - Then head over to the `Browser` panel and expand the data folder.  
+We want to select multiple files and load them into the 'Original data' group. We can do this by holding down the ctrl key whilst clicking on multiple the files.
+> - Hold down the `ctrl`key, and click on the following files
 >   - 'current_distribution_RF_1.tif'  
 >   - Expand the geopackage and click on all the layers*  
 > - With all of these selected, click on the `Add selected layer` button at the top of the `Browser` panel  
@@ -36,16 +38,47 @@ We are going to select multiple files and load them under the group headings
 
 *N.B. The layers in the geopackage have been extracted from the ArcGIS REST Service from the Queensland Government. Refer to [Ref A - Add Data](https://emhain8.github.io./QGIS-Cartography-ICCB/docs/part1a-add-data.html) for step by step instructions for other methods.*   
 
+> ++Save your project
+
 Nearly there with the data, we just need to add in a basemap.  
-> In the `Layers` panel, click on the group 'Base'  
-> In the `Browser`, under `XYZ Tiles`, click on 'Qld Imagery'  
-> Click on the `Add selected layer` button at the top of the `Browser` panel  
+> - In the `Layers` panel, click on the group 'Base'  
+> - In the `Browser`, under `XYZ Tiles`, click on 'Qld Imagery'  
+> - Click on the `Add selected layer` button at the top of the `Browser` panel
+
+Next, we are going to add in the picture of the Koala. We are doing this as we want to be a little bit clever for some tricks later on. Usually we would just add the picture to the Print Layout. 
+> - In the `Layers` panel, click on the group 'Decorations'
+> - In the `Browser`, under the 'Data' folder, click on koala_1.jpeg
+> - Click on the `Add selected layer` button at the top of the `Browser` panel
 
 ## Styling
 Now it is time to style the:  
 - Koala distribution: 'current_distribution_RF_1.tif'  
 - LGA: local_government_area  
 - Mask: seq_boundary  
+
+### Create a Palette
+We all consume branding everyday and choosing a palette of colors is a part of it. Artists will also look to a set of colors, a palette, to help harmonise their work. So let's create a palette from the Koala picture you have.  
+> - In the `Layers` panel, expand the 'Decorations' group  
+> - Right mouse click on the 'koala_1.jpeg'and click on `Zoom to layers`  
+> - On the top menu, click on `Settings > Options'  
+> - In the `Options`, select `Colors` on the left side  
+>  ![palette](../media/palette3.png)  
+> - Click on the drop down where it says *Standard colors* and select *Project colors*  
+> - Click on the green plus button to bring up the `Select color` dialog
+> ![palette_sample](../media/palette_sample.png)  
+> - Click on the `Sampling`tab  
+> - To start collecting the colors for the palette click the `Sample color`button  
+> - Let's start with a light grey first, so click the background of the koala image to pick up the grey and click `OK`  
+> ![palette_grey](../media/palette_grey.png)  
+The grey now appears in the palette. you can change the label it you want. Repeat the above to capture the following:
+- Browns from the trunk
+- Greens from the leaves
+- Greys from the fur and nose
+- Pinks from the fur
+palette-koala
+> ![palette-koala](../media/palette-koala.png)  
+> - click `OK`
+> - Save your project
 
 ### AOI Map
 First, we are going to create our "AOI" map - our area of interest. For this we will want the following datasets turned on:  
