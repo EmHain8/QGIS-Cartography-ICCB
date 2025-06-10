@@ -80,7 +80,9 @@ The grey now appears in the palette. you can change the label it you want. Repea
 - Pinks from the fur
 > ![palette-koala](../media/palette-koala.png)  
 > - click `OK`  
-> - :point_right: **Save your project**  
+> - :point_right: **Save your project**
+
+These project colors are now built into this project file. They will appear when you go to the palette option to select colors. 
 
 ### AOI Map
 First, we are going to create our "AOI" map - our area of interest. For this we will want the following datasets turned on:  
@@ -107,16 +109,20 @@ This is the mask we want for the 'Island' look for the Grid data, but for the AO
 > - In the Layers Styling panel, click on the Simple Fill and change it to `Shapeburst Fill`
 
 The `Shapeburst Fill` is a great effect and can also be used for styling water bodies. But we are going to create a transparent mask so we can still see the aerial image under it 
-> ![shapeburst](../media/shapeburst.png)  
 > - For the `Gradient Colours` select the `Colour ramp` option and click in the color bar to bring up our options.  
+> ![shapeburst](../media/shapeburst.png)  
 
 We are going to use the greens from our `Project colors` palette  
-> ![color-ramp](../media/color-ramp2.png)  
 > - For Color 1, select the darkest green you have  
 > - For Color 2, select white  
 > - Click ok
+> ![color-ramp](../media/color-ramp2.png)  
 > :point_right: Save your project  
 
+Last step for this AOI, we want to make it transparent.  
+> - In `Layer Styling`, at the bottom, expand the `Lyaer Rendering` options  
+> - Nect to `Opacity` click in the percentage field and make it 66%  
+>  ![layer-rendering](../media/layer-rendering.png)  
 
 As you can see here, the QLD Imagery does not extend into the Coral Sea enough, so this is where we may have to replace it with another service. Ensure you have the rights to use it. An easy fix it to set the map property background colour to that of the sea. 
 ![select-color](../media/select-color.png)
