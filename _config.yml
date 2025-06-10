@@ -18,8 +18,10 @@ nav:
   - title: Map Brief
     url: /docs/map-brief
   - title: "Part 1 - Styling & Data"
-    url: /docs//part1-styling-data
+    url: /docs/part1-styling-data
   - title: "Part 2: Build a Cartographic Product"
-    url: /docs//part2-build-map
+    url: /docs/part2-build-map
   - title: Resources
-    url: /docs//resources
+    url: /docs/resources
+  - title: Add data
+    url: /docs/pasrt1a-add-data
