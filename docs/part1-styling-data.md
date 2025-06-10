@@ -69,18 +69,26 @@ We are going to access some data now from the service we have loaded. We can use
 > - On the left hand side of the `Data Source Manager`scroll down until you see the ArcGIS REST Server and click on it  
 > - On the right hand side, click the drop down and select 'QLD' (or whatever you named the Qld Spatial Government service)  
 > - Click on `Connect`  
-> - Click on Boundaries > AdministrativeBoundaries > Local government  
+> - Click on Boundaries > AdminBoundariesFramework > Local Government area (you will need to scroll down quite a bit)
 > - Tick `Only request features overlapping the current view extent`  
 > - Click on `Add`  
->![Browser panel](../media/data-source-manager-load.png)  
+>![Browser panel](../media/data-source-manager-load-lga.png)  
 
-We won't close this yet as we need to add in river and places.
+We won't close this yet as we need to add in watercourses.
 
 > - Above the layer list, there is a search bar, type in 'water', we are looking for polyline dataset for a river  
 > - Expand 'Inland River' and select 'WatercourseIdentificationMap' > 'Watercourse'
 > ![Browser panel](../media/data-watercourse.png)
 > - Click `Add with Filter`  
-> - The `Expresion Builder` will come up. Add in the following ` "name" is NOT NULL`  
+> - The `Expression Builder` will come up. Add in the following ` "name" is NOT NULL` and click on `OK`
 > ![Browser panel](../media/data-add-filter.png)
+> - Click `Add`, then `Close`
+> - Turn off the watercourse dataset as we do not need it at the moment. 
+
+Now add in Population centres using the Data source manager - but be careful to select only those covering the extent.  
+- It is in the QLD service under Location > Places  
+- Use the search function to find it quickly  
+
+  
 
 
