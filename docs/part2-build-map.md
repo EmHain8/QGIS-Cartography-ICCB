@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Part 2: Build a Beautiful Map"
-nav_order: 3
+nav_order: 4
 ---
 
 We will cover:
