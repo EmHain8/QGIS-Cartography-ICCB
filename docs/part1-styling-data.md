@@ -44,7 +44,7 @@ One of the important aspects to an efficient mapping product, is keeping it tidy
 > ![Add a group](../media/add_group.png)  
 
 ### Browser
-Now we will add the data to the groups. 
+Accessing the data via the `Browser` panel, we will add the data to the groups. 
 > - Ensure you have the `Browser` panel open.  
 > ![Browser panel](../media/browser.png)  
 > - At the top of the `Browser`, click on the arrow next to `Project Home` to collapse it  
@@ -60,8 +60,21 @@ We are going to select multiple files and load them under the group headings
 > - This results in layers nested under the 'Original data' group  
 > ![Select group](../media/group_layers.png)  
 
+### Data source manager
+We are going to access some data now from the service we have loaded. We can use the `Browser` panel to do so, but to select data that only occurs in the map extent. In this instance, our Area of Interest - South East Queensland.   
+> - In the `Layers` panel, select turn on the 'seq_boundary' layer  
+> - Right mouse click on the layer and select `Zoom to layer`  
+> - Click on the `Open Data Source Manager' button  
+> ![Browser panel](../media/data-source-manager.png)  
+> - On the left hand side of the `Data Source Manager`scroll down until you see the ArcGIS REST Server and click on it  
+> - On the right hand side, click the drop down and select 'QLD' (or whatever you named the Qld Spatial Government service)  
+> - Click on `Connect`  
+> - Click on Boundaries > AdministrativeBoundaries > Local government  
+> - Tick `Only request features overlapping the current view extent`  
+> - Click on `Add`  
+>![Browser panel](../media/data-source-manager-load.png)  
 
-Data source manager
+
 - service
 - rivers
 
