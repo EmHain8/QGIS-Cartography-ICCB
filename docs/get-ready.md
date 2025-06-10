@@ -25,7 +25,7 @@ We will be using the following facets of QGIS, so familiarise yourself with them
 # Workshop Set-up
 ## Create a project file structure
 Create this somewhere logical:  
-![project_folder](/media/project_folder.png)  
+![project_folder](../media/project_folder.png)  
 
 ## Open QGIS
 Save the project file to Products and name it `ICCB_Koala.qgz` 
@@ -42,11 +42,11 @@ https://spatial-gis.information.qld.gov.au/arcgis/rest/services
 ### How to load a connection
 *This works for both the XYZ Tile and the ArcGIS REST Server.*  
 1. In the `Browser` panel, right mouse click and select `New Connection`  
-![browser](/media/browser_nc.png)  
+![browser](../media/browser_nc.png)  
 2.  Give the Connection a name   
 3. Enter in links from the website into the URL  
 4. Click OK  
-![new_conenction](/media/new_connection.png)
+![new_conenction](../media/new_connection.png)
 
 
 
