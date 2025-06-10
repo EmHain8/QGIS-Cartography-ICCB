@@ -35,10 +35,10 @@ We want to select multiple files and load them into the 'Original data' group. W
 > - This results in layers nested under the 'Original data' group  
 > ![group layers](../media/group_layers.png)  
 > - Turn off the layers, population_centres and watercourse  
+> - :point_right: **Save your project**  
 
 *N.B. The layers in the geopackage have been extracted from the ArcGIS REST Service from the Queensland Government. Refer to [Ref A - Add Data](https://emhain8.github.io./QGIS-Cartography-ICCB/docs/part1a-add-data.html) for step by step instructions for other methods.*   
 
-> ++Save your project
 
 Nearly there with the data, we just need to add in a basemap.  
 > - In the `Layers` panel, click on the group 'Base'  
@@ -49,6 +49,7 @@ Next, we are going to add in the picture of the Koala. We are doing this as we w
 > - In the `Layers` panel, click on the group 'Decorations'
 > - In the `Browser`, under the 'Data' folder, click on koala_1.jpeg
 > - Click on the `Add selected layer` button at the top of the `Browser` panel
+> - :point_right: **Save your project**  
 
 ## Styling
 Now it is time to style the:  
@@ -69,16 +70,17 @@ We all consume branding everyday and choosing a palette of colors is a part of i
 > - Click on the `Sampling`tab  
 > - To start collecting the colors for the palette click the `Sample color`button  
 > - Let's start with a light grey first, so click the background of the koala image to pick up the grey and click `OK`  
-> ![palette_grey](../media/palette_grey.png)  
+> ![palette_grey](../media/palette_grey.png)
+> - :point_right: **Save your project**
+
 The grey now appears in the palette. you can change the label it you want. Repeat the above to capture the following:
 - Browns from the trunk
 - Greens from the leaves
 - Greys from the fur and nose
 - Pinks from the fur
-palette-koala
 > ![palette-koala](../media/palette-koala.png)  
-> - click `OK`
-> - Save your project
+> - click `OK`  
+> - :point_right: **Save your project**  
 
 ### AOI Map
 First, we are going to create our "AOI" map - our area of interest. For this we will want the following datasets turned on:  
@@ -87,22 +89,34 @@ First, we are going to create our "AOI" map - our area of interest. For this we 
 - Qld Imagery
 
 #### Create the Mask
-> - Click on the layer seq_boundary and click on `Duplicate Layer`  
+> - Under 'Original data' turn on the layer seq_boundary and zoom to it (right mouse click)
+> - Right mouse click on it and select `Duplicate Layer`  
 > - Move this layer to the sit under the 'Mask' group  
 > - Rename it to AOI (right mouse click > `Rename Layer`) and click on it so it becomes the `Active` layer  
 > - Right mouse click anywhere in a blank area on the toolbar at the top and select `Panels > Layer Styling Panel`  
 > ![layer styling panel](../media/layer-styling-panel.png)  
 > - In the `Layer Styling` panel, select from the drop down `Inverted Polygons'  
 > - Click on `Simple Fill` and remove the outline and change the colour to white  
-> ![inverted-polygons](../media/inverted-polygons.png)  
+> ![inverted-polygons](../media/inverted-polygons.png)
+> - :point_right: **Save your project**  
 
 This is the mask we want for the 'Island' look for the Grid data, but for the AOI, we want to still see the surrounds so it helps us get our bearings. To do this, we are going to create an additional style for the AOI layer.  
 
 > - Right mouse click on the AOI Layer and click `Styles > Add`. Call this 'AOI'   
 > ![Additional styles](../media/styles-add.png)  
-> - In the Layers Styling panel, click on the Simple Fill and change it to `Shapeburst Fill`  
-> - Select the Colour ramp and use a dark green (#058a74) for Color 1 and White for Color 2. Use a transparency of 66%  
-> ![color-ramp](../media/color-ramp.png)
+> - In the Layers Styling panel, click on the Simple Fill and change it to `Shapeburst Fill`
+
+The `Shapeburst Fill` is a great effect and can also be used for styling water bodies. But we are going to create a transparent mask so we can still see the aerial image under it 
+> ![shapeburst](../media/shapeburst.png)  
+> - For the `Gradient Colours` select the `Colour ramp` option and click in the color bar to bring up our options.  
+
+We are going to use the greens from our `Project colors` palette  
+> ![color-ramp](../media/color-ramp2.png)  
+> - For Color 1, select the darkest green you have  
+> - For Color 2, select white  
+> - Click ok
+> :point_right: Save your project  
+
 
 As you can see here, the QLD Imagery does not extend into the Coral Sea enough, so this is where we may have to replace it with another service. Ensure you have the rights to use it. An easy fix it to set the map property background colour to that of the sea. 
 ![select-color](../media/select-color.png)
