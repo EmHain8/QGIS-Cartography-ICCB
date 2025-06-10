@@ -9,7 +9,7 @@ nav_order: 3
 - Coordinate Reference Systems (CRS)
 - Creating and loading styles
 
-## Data Types
+## Data types
 ![Course data](/media/course_data.png)  
 In this course, we will be using vector and raster spatial data as well as images to complete our poster.  
 ### Vector data
@@ -35,4 +35,18 @@ Images
 
 All text for the captions can be found in the content.txt
 
+## Loading data
+Loading data can occur in multiple ways. For this course, we will use the Browser and the Data Source Manager.  
+
+One of the important aspects to an efficient mapping product, is keeping it tidy. A way to do this is to create `Groups` in the `Layers` panel.  
+![layer groups](/media/groups.png)  
+> Create the above groups in the layers panel by right mouse clicking in the layer panel and selecting `Add group`.
+> ![Add a group](/media/add_group.png)
+
+### Browser
+Ensure you have the Browser Panel open
+
+Data source manager
+- service
+- rivers
 
