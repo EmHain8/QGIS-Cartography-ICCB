@@ -7,7 +7,7 @@ nav_order: 1
 [Download QGIS 3.40.7](https://qgis.org/download/) (current Long Term Release) using the [OSGeo4W installer](https://qgis.org/resources/installation-guide/#online-osgeo4w-installer)
 
 ## Download data
-[Download Course materials](https://raw.githubusercontent.com/EmHain8/QGIS-Cartography-ICCB/blob/main/data/data.zip)
+[📁 Download ZIP: Course materials](https://raw.githubusercontent.com/EmHain8/QGIS-Cartography-ICCB/main/data/data.zip)
 
 ## For those new to QGIS
 Prior to the conference, you can undertake the freely available [Introduction to QGIS](https://courses.spatialthoughts.com/introduction-to-qgis.html) from Spatial Thoughts.
