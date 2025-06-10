@@ -36,7 +36,7 @@ We want to select multiple files and load them into the 'Original data' group. W
 > - This results in layers nested under the 'Original data' group  
 > ![group layers](../media/group_layers.png)  
 > - Turn off the layers, population_centres and watercourse  
-:point_right: **Save your project**  
+> - **Save your project**  
 
 *N.B. The layers in the geopackage have been extracted from the ArcGIS REST Service from the Queensland Government. Refer to [Ref A - Add Data](https://emhain8.github.io./QGIS-Cartography-ICCB/docs/part1a-add-data.html) for step by step instructions for other methods.*   
 
@@ -50,7 +50,7 @@ Next, we are going to add in the picture of the Koala. We are doing this as we w
 > - In the `Layers` panel, click on the group 'Decorations'
 > - In the `Browser`, under the 'Data' folder, click on koala_1.jpeg
 > - Click on the `Add selected layer` button at the top of the `Browser` panel
-> - :point_right: **Save your project**  
+> - **Save your project**  
 
 ## Styling
 Now it is time to style the:  
@@ -72,7 +72,7 @@ We all consume branding everyday and choosing a palette of colors is a part of i
 > - To start collecting the colors for the palette click the `Sample color`button  
 > - Let's start with a light grey first, so click the background of the koala image to pick up the grey and click `OK`  
 > ![palette_grey](../media/palette_grey.png)
-> - :point_right: **Save your project**
+> - **Save your project**  
 
 The grey now appears in the palette. you can change the label it you want. Repeat the above to capture the following:
 - Browns from the trunk
@@ -81,7 +81,7 @@ The grey now appears in the palette. you can change the label it you want. Repea
 - Pinks from the fur
 > ![palette-koala](../media/palette-koala.png)  
 > - click `OK`  
-> - :point_right: **Save your project**
+> - **Save your project**  
 
 These project colors are now built into this project file. They will appear when you go to the palette option to select colors. 
 
@@ -101,7 +101,7 @@ First, we are going to create our "AOI" map - our area of interest. For this we 
 > - In the `Layer Styling` panel, select from the drop down `Inverted Polygons'  
 > - Click on `Simple Fill` and remove the outline and change the colour to white  
 > ![inverted-polygons](../media/inverted-polygons.png)
-> - :point_right: **Save your project**  
+> - **Save your project**  
 
 This is the mask we want for the 'Island' look for the Grid data, but for the AOI, we want to still see the surrounds so it helps us get our bearings. To do this, we are going to create an additional style for the AOI layer.  
 
@@ -118,7 +118,7 @@ We are going to use the greens from our `Project colors` palette
 > - For Color 2, select white  
 > - Click ok
 > ![color-ramp](../media/color-ramp2.png)  
-> :point_right: Save your project  
+> - **Save your project**  
 
 Last step for this AOI, we want to make it transparent.  
 > - In `Layer Styling`, at the bottom, expand the `Lyaer Rendering` options  
@@ -143,7 +143,7 @@ Let's sort out our LGA's now with boundaries and some labels.
 > - For the color, select the same color as the outline - this should be on the palette  
 > - Click on the next tab and add in Multiple lines based on spacing  
 > - Add a `Text Buffer` of 0.7  
-> - Use the color picker to select a dark color from the aerial  
+> - Select a dark color form the `Project colors` palette  
 
 
 
