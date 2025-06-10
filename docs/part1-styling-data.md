@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Part 1: Styling Data"
-nav_order: 2
+nav_order: 3
 ---
 
 ** We will cover:
