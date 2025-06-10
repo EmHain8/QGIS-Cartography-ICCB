@@ -6,6 +6,8 @@ nav_order: 1
 # Prior to the Course  
 [Download QGIS 3.40.7](https://qgis.org/download/) (current Long Term Release) using the [OSGeo4W installer](https://qgis.org/resources/installation-guide/#online-osgeo4w-installer)
 
+## Download data
+[Download Course data](/data/data.zip)
 
 ## For those new to QGIS
 Prior to the conference, you can undertake the freely available [Introduction to QGIS](https://courses.spatialthoughts.com/introduction-to-qgis.html) from Spatial Thoughts.
@@ -45,6 +47,9 @@ https://spatial-gis.information.qld.gov.au/arcgis/rest/services
 3. Enter in links from the website into the URL  
 4. Click OK  
 ![new_conenction](/media/new_connection.png)
+
+## Download the required datasets
+
 
 
 
