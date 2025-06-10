@@ -81,16 +81,16 @@ Let's sort out our LGA's now with boundaries and some labels.
 > - In the `Layer Styling`, click on `Simple Fill` and change the outline to a light grey (#d9d9d9)
 
 **Labels**
-> - In the `Layer Styling`, click on the label tab
-> ![label-tab](../media/label-tab.png)
-> - Select from the dropdown `Single Labels`
-> - For the value, select 'abbrev_name'
-> - Select the font 'Roboto Black', size 6
-> - For the color, select the same color as the outline - this should be on the palette
-> - Click on the next tab and add in Multiple lines based on spacing
-> - Add a `Text Buffer` of 0.7
-> - Use the color picker to select a dark color from the aerial
-> - 
+> - In the `Layer Styling`, click on the label tab  
+> ![label-tab](../media/label-tab.png)  
+> - Select from the dropdown `Single Labels`  
+> - For the value, select 'abbrev_name'  
+> - Select the font 'Roboto Black', size 6  
+> - For the color, select the same color as the outline - this should be on the palette  
+> - Click on the next tab and add in Multiple lines based on spacing  
+> - Add a `Text Buffer` of 0.7  
+> - Use the color picker to select a dark color from the aerial  
+
 
 
 
