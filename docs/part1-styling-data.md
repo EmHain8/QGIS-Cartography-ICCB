@@ -9,9 +9,10 @@ nav_order: 3
 ## Loading data
 Loading data can occur in multiple ways. For this course, we will use the Browser and the Data Source Manager.  
 
-One of the important aspects to an efficient mapping product, is keeping it tidy. A way to do this is to create `Groups` in the `Layers` panel.  
+One of the important aspects to an efficient mapping product, is keeping it tidy. A way to do this is to create `Groups` in the `Layers` panel.   
+
 ![layer groups](../media/groups.png)  
-> - Create the above groups in the layers panel by right mouse clicking in the layer panel and selecting `Add group`.
+> - Create the above groups in the layers panel by right mouse clicking in the layer panel and selecting `Add group`.  
 > ![Add a group](../media/add_group.png)  
 
 ### Browser
@@ -35,7 +36,7 @@ We want to select multiple files and load them into the 'Original data' group. W
 > - This results in layers nested under the 'Original data' group  
 > ![group layers](../media/group_layers.png)  
 > - Turn off the layers, population_centres and watercourse  
-> - :point_right: **Save your project**  
+:point_right: **Save your project**  
 
 *N.B. The layers in the geopackage have been extracted from the ArcGIS REST Service from the Queensland Government. Refer to [Ref A - Add Data](https://emhain8.github.io./QGIS-Cartography-ICCB/docs/part1a-add-data.html) for step by step instructions for other methods.*   
 
