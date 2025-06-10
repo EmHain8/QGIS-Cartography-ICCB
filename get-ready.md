@@ -48,7 +48,6 @@ https://spatial-gis.information.qld.gov.au/arcgis/rest/services
 4. Click OK  
 ![new_conenction](/media/new_connection.png)
 
-## Download the required datasets
 
 
 
