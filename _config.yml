@@ -13,11 +13,11 @@ plugins:
 nav:
   - title: Home
     url: /
-  - title: Get Ready
-    url: /get-ready
+  - title: /docs/Get Ready
+    url: /docs/get-ready
   - title: "Part 1 - Styling & Data"
-    url: /part1-styling-data
+    url: /docs//part1-styling-data
   - title: "Part 2: Build a Cartographic Product"
-    url: /part2-build-map
+    url: /docs//part2-build-map
   - title: Resources
-    url: /resources
+    url: /docs//resources
