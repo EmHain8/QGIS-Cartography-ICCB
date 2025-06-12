@@ -15,4 +15,4 @@ Create a A4 poster showing:
 8. Predicted clicmate chanes (SSP370)
 9. Priority areas for conservation
 
-![End Map](../media/a4_multi-panel_v4.png)
+![End Map](../media/a4_multi-panel_v6.png)
