@@ -41,4 +41,4 @@ Koalas (*Phascolarctos cinereus*) in South East Queensland (SEQ) inhabit fragmen
       - Data: scenario _4.tif
       - Symbol: 1 = Priority area
 
-![End Map](../media/a4_multi-panel_v6.png)
+![End Map](../media/a4_multi-panel_v7.png)
