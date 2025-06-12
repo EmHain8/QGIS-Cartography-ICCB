@@ -16,7 +16,7 @@ Koalas (*Phascolarctos cinereus*) in South East Queensland (SEQ) inhabit fragmen
     - Data: koala_1.jpeg
 
 ### Maps
-1.Area of Interest (AOI) - South East Queensland (SEQ)
+1. Area of Interest (AOI) - South East Queensland (SEQ)
 
 2. Overall Change (climate downscaled model) - Session 2 output
 
