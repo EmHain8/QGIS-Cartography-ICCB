@@ -33,7 +33,7 @@ Koalas (*Phascolarctos cinereus*) in South East Queensland (SEQ) inhabit fragmen
 
    - Intention: change between the current and future suitability - shows koala’s response to the projected climate changes. SSP370 minus current
    - Data: SSP370: future370-current.tif
-   - Symbol: rise in temperature decrease > increase (-1, 0.5, 0, 0.5, 1)
+   - Symbol: These values range from -1 to 1 and are the predicted changes from the current conditions to the future conditions. When the values are greater than 0 it means that the climatic suitability is predicted to improve, with the magnitude representing how much, and when the values are less than 0, the conditions are predicted to get worse. 0 means no predicted change between current and future climatic conditions.
 
 5. Priority areas for conservation - Session 4 output
 
