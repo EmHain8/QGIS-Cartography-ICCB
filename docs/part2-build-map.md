@@ -105,8 +105,11 @@ In this instance, the raster styling is 'Discrete' and therefore returns a legen
 
 But we want to put in a ramp here, if the product was more technical, then we would spend the time in amending it through the size of the symbol and cutting out the spaces between the symbols and removing the black outline. However, I want you to learn how to approach a problem like this by using a proxy. 
 
-> - Switch back to the `Map Canvas`, under the 2 Map group, dupliate the data and call it 'legend'
+> - Switch back to the `Map Canvas`,
+> - Turn on the `Map theme` '2 Overall Change (climate downscaled model)'
+> - Under the 2 Map group, duplicate the data and call it 'legend'
 > - Change the Interpolation to 'Linear'
+> - With the legend and original dataset layers turned on, In `Manage Map themes`, replace theme '2 Overall Change (climate downscaled model)'
 > - **Save your project**
 > - Switch back to the `Print Layout`
 > - Add a legend item and make sure it's linked to the map 2
