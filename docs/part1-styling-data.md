@@ -10,8 +10,6 @@ We will cover the following:
 - Replacing datasets
 - Choosing your colors for you brand via your own palette
 - Creating a mask to focus your views on your data
-- Labeling
-- Creating a color ramp
 - Use a cool basemap
 - Create Map themes
 
