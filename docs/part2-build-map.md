@@ -91,7 +91,7 @@ First, lets create the green rectangle:
 > - In the 'Items' tab, name is green rectangle
 > - **Save your project**
 
-> - Copy and paste this decoration
+> - Copy and paste the green rectangle
 > - Click on the `Item Properties`  tab
 > - Set the corner radius to 5
 > - Give it a koala pink color #d6c7c2
@@ -103,12 +103,50 @@ First, lets create the green rectangle:
 > - **Save your project**
 
 ## 3 Add in the koala
-- add in the frame
+Because we want to create a rounded frame around the koala, we need to add it as a map feature. 
 
+> - Click the `Add map` button on the toolbox toolbar
+> - Draw the box somewhere near the upper right of the page
+> - In the `Item Properties`, check the `Follow map theme` and from the dropdown, select 6 Koala image
+
+If it doesn't show, go back to the map canvas, right click the koala layer and select `Zoom to Layer
+
+> - On the top of the `Item Properties`, click on the second button in to set the map extent to the current one.
+> - In the `Scale` enter 1:4517.773
+> - Amend the `Position and Size`
+>   - X: 255.990
+>   - Y: 0.500
+>   - Width: 48.812
+>   - Height: 83.954  
 > - **Save your project**
 
+Now we are going to make it fancy by giving it a rounded frame
+
+> - Click on the `Add shape > Add rectangle`
+> - Draw a rectangle over the koala
+> - Set the corner radius to 5
+> - Change the fill style to 'no fill'
+> - Amend the `Position and Size`
+>   - X: 256.140
+>   - Y: 9.691
+>   - Width: 38.081
+>   - Height: 59.712
+> - Click `Move item content' on the toolbox toolbar and click on the to move the koala image to it appears within the frame
+> - Name both the map (6 Koala map) and the frame (6 Koala frame)
+> - **Save your project**
+> - On the top of `Item properties`, click on the last icon `Clipping Settings`
+> - In the dialog, check the box `Clip to Item`
+> - From the dropdown, select '6 Koala frame'
+
+![clip-shape.png](../media/clip-shape.png.png)
+
+> - Click the back button to return to the `Item properties`
+> - **Save your project** 
+
+
+
 ## 4 Add in the maps x5
-- add in the frame
+start with aoi
 
 > - **Save your project**
 
