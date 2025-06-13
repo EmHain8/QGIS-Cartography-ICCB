@@ -13,9 +13,9 @@ nav_order: 4
 | ID | Map        | Map Theme | Title | Scale | X  | Y  | Width | Height | Legend | Note |
 |-----|------------|-----|-------------|--------|-------------|-----|-----|-----|-----|-----|
 | 1 | Area of Interest (AOI) | 1 AOI | South-East Queensland (white 10pt)| 1:3200000 | 2.596 | 8.795 | 92.638 | 79.841 | n/a | Decoration 'shape' |
-| 2 | Overall Change (climate downscaled model) - s2 | 2 Overall Change (climate downscaled model) (white 10pt) | Overall Change in Temperature (SSP370 ) | 1:24990123 | 188.025 | 25.558 | 68.037 | 73.848 | Color ramp taken from dummy 'Legend'; 2 to 4 | Use the projection option in the Print Layout to change to 4326 |
-| 3 | Climatic suitability for koalas - s3  | 3 Climatic suitability for koalas (black 12pt) | Climatic suitability for koalas  | 1:3200000 | 0.000 | 102.906 | 98.000 | 90.000 | Color ramp; Unsuitable to Suitable | n/a |
-| 4 | Climatic suitability for koalas - s3  | 4 Projected suitability change (SSP370) (black 12pt) | Projected suitability change (SSP370), current to 2090  | 1:3200000 | 99.500 | 102.906 | 98.000 | 90.000 | Color ramp; Worse to Better | n/a |
+| 2 | Overall Change (climate downscaled model) - s2 | 2 Overall Change (climate downscaled model) | Overall Change in Temperature (SSP370 ) (white 10pt) | 1:24990123 | 188.025 | 25.558 | 68.037 | 73.848 | Color ramp taken from dummy 'Legend'; 2 to 4 | Use the projection option in the Print Layout to change to 4326 |
+| 3 | Climatic suitability for koalas - s3  | 3 Climatic suitability for koalas | Climatic suitability for koalas (black 12pt)  | 1:3200000 | 0.000 | 102.906 | 98.000 | 90.000 | Color ramp; Unsuitable to Suitable | n/a |
+| 4 | Climatic suitability for koalas - s3  | 4 Projected suitability change (SSP370) | Projected suitability change (SSP370), current to 2090  (black 12pt) | 1:3200000 | 99.500 | 102.906 | 98.000 | 90.000 | Color ramp; Worse to Better | n/a |
 | 5 | Koala priority areas - s4  | 5 Priority areas | Priority areas for conservation (black 12pt)  | 1:3200000 | 199.000 | 102.906 | 98.000 | 90.000 | Legend | n/a |
 | 6 | Koala image  | 6 Koala image | n/a | 1:4517.773 | 255.990 | 0.500 | 48.812 | 83.954 | Legend | Decoration 'shape' |
 
