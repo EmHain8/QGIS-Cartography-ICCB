@@ -39,17 +39,47 @@ nav_order: 4
 # Let's make the map!
 There is a reference image in the Project folder and also on this website. There is also a template that can be used (a4_iccb_v8.qpt). If we are running out of time, we will use the print layout already loaded. 
 
+When you navigate around the print layout screen, you have the panels and toolbars, following the logic as what is used in the Map Canvas. These all help set the parameters for the elements on the page.
+
+![print-items](../media/print-items.png) 
+
+The panels include:
+
+- Item properties: used to set font, position on the page and specific requirements to the types of items like scale.
+- Items: listing of all the items. These items can be selected, deleted, moved up or down in order or renamed here.
+- Guides: set up guides to help with positioning
+- Undo history: check your history and revert back
+- Layout: overall layout requirements, good to check before printing
+
+Several toolbars are present, but the one most used in this exercise will be the 'Toolbox'
+
+![print-toolbar](../media/print-toolbar.png)
+
+From left to right, those highlighted are:
+- Move item content
+- Add a map
+- Create a shape
+
 ## 1 Create a map
 
 > - Click on `Project > New Print layout`
 > - Give it a name 'ICCB Koala A4 v1'
+> - Right click on the page and click on 'Page Properties'
+> - Make sure it is A4
+> - **Save your project**
 
 ## 1 Set up the map text type
+Did you know you can set the text for the whole print layout - this saves so much time. For this product, we are going to use Roboto.
 
+> - Click on `Settings > Layout Options`
+> - On the left, click on 'Layouts'
+> - In the 'Default font' click the drop down, type 'R' and then scroll down to Roboto
+> - Click 'OK'
 > - **Save your project**
 
 ## 2 Add in the decorations
-
+Lets add in the rectangles that are in the background for the upper part of the page. 
+> - 
 > - **Save your project**
 
 ## 3 Add in the koala
