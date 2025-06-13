@@ -270,4 +270,4 @@ Now let's update the rest of the map themes with the Mask Layer - but this time,
 > - Click `Manage Map Themes > Replace Theme` and select '3 Climatic suitability for koalas - s3'
 > - **Save your project**
 
-Repeast for map themes 4 and 5 by adding in the AOI layer using the style 'shadow'.
+Repeat for map themes 4 and 5 by adding in the AOI layer using the style 'shadow'.
