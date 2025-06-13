@@ -27,7 +27,7 @@ nav_order: 4
 | 2 | Scale bar  | Roboto  | 6 | Black | 245.883 | 199.350 | 39.616 | 10.650 | Line Ticks Middle or your choice| Segments: left;0/right 4, Fixed width 25.0 units|
 | 3 | Data credentials  |  Roboto  | 6 | Black | 2.596 | 204.100 | 236.516 | 4.412 | Left | Uses dynamic and free text |
 | 4 | Problem statement  | Roboto | 10 | Black | 98.000 | 27.036 | 90.113 | 70.891 | Justify | Html, Line height 130% |
-| 5 | Pink rectangle  |  n/a  | n/a | 1:4517.773 | 0.000 | 17.515 | 297.000 | 85.641 | n/a | Decoration 'shape' |
+| 5 | Pink rectangle  |  n/a  | n/a | #d6c7c2 | 0.000 | 17.515 | 297.000 | 85.641 | n/a | Decoration 'shape' |
 | 6 | Green rectangle  |  n/a  | n/a | #3b3e29 | 0.000 | 0.000 | 297.000 | 23.300 | n/a | Decoration 'shape' |
 | 7 | Main Title  | Roboto 'Black' | 21 | White | 95.235 | 9.473 | 160.756 | 8.042 | Centre | Center to the AOI and Koala elements |
 
@@ -57,8 +57,8 @@ Several toolbars are present, but the one most used in this exercise will be the
 
 From left to right, those highlighted are:
 - Move item content
-- Add a map
-- Create a shape
+- Add map
+- Add shape
 
 ## 1 Create a map
 
@@ -79,7 +79,27 @@ Did you know you can set the text for the whole print layout - this saves so muc
 
 ## 2 Add in the decorations
 Lets add in the rectangles that are in the background for the upper part of the page. 
-> - 
+First, lets create the green rectangle:
+
+> - Click on  `Add shape > Add Rectangle'
+> - Draw a thin rectangle that streches the breadth of the page 
+> - Click on the `Item Properties`  tab
+> - Give it a green color #3b3e29
+> - Remove the line if it has one
+> - Under position and size, give it a height of 23.300mm and position it at 0/0
+> - Check the width is 297mm
+> - In the 'Items' tab, name is green rectangle
+> - **Save your project**
+
+> - Copy and paste this decoration
+> - Click on the `Item Properties`  tab
+> - Set the corner radius to 5
+> - Give it a koala pink color #d6c7c2
+> - Remove the line if it has one
+> - Under position and size, give it a height of 85.641 and position it at 0/17.515
+> - Check the width is 297mm
+> - In the 'Items' tab, name is pink rectangle
+> - Make sure it sits under the green rectangle
 > - **Save your project**
 
 ## 3 Add in the koala
