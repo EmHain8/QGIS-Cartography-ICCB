@@ -93,27 +93,28 @@ Let's amend the symbol size
 > - Position it to the upper left of the assocaited map
 > - **Save your project**
 
-*Repeat for the map 4 - hint, you can copy and paste legends and change the content. This will keep the same format for font/size*
+*Repeat for map 4 - hint, you can copy and paste legends and change the content. This will keep the same format for font/size*
 
 ### Proxy legends 
 Sometimes a legend does not work in your favour, so you need to do some magic.  
 
-#### Map 2 - Overall Change in Temperature
-In this instance, the raster styling is 'Discrete' and therefore returns a legend such as this:
+**Map 2 - Overall Change in Temperature**  
+In this instance, the raster styling is 'Discrete' and therefore returns a legend such as this:  
+
 ![legend-discrete](../media/legend-discrete.png)  
 
-But we want to put in a ramp here, if the product was more technical, then we may spend the time in amending it through the size of the symbol and cutting out the spaces between the symbols and removing the black outline. But, I want you to learn how to approach a problem like this by using a proxy. 
+But we want to put in a ramp here, if the product was more technical, then we would spend the time in amending it through the size of the symbol and cutting out the spaces between the symbols and removing the black outline. However, I want you to learn how to approach a problem like this by using a proxy. 
 
 > - Switch back to the `Map Canvas`, under the 2 Map group, dupliate the data and call it 'legend'
 > - Change the Interpolation to 'Linear'
 > - **Save your project**
 > - Switch back to the `Print Layout`
 > - Add a legend item and make sure it's linked to the map 2
-> - Add in the 'Legend' dataset for it
+> - Add in the 'legend' dataset for it
 > - Run through the amendements as per last exercise
 > - **Save your project**
 
-#### Map 5 - Priority Areas for Conservation
+**Map 5 - Priority Areas for Conservation**
 For some reason, the scenario dataset is not showing up, so we are going to create one from another dataset. 
 
 > - Create a legend item and remove all of the items
