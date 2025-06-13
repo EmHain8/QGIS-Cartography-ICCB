@@ -13,10 +13,10 @@ nav_order: 4
 | ID | Map        | Map Theme | Title | Scale | X  | Y  | Width | Height | Legend | Note |
 |-----|------------|-----|-------------|--------|-------------|-----|-----|-----|-----|-----|
 | 1 | Area of Interest (AOI) | 1 AOI | South-East Queensland (white 10pt)| 1:3200000 | 2.596 | 8.795 | 92.638 | 79.841 | n/a | Decoration 'shape' |
-| 2 | Overall Change (climate downscaled model) - s2 | 2 Overall Change (climate downscaled model) | Overall Change in Temperature (SSP370 ) (white 10pt) | 1:24990123 | 188.025 | 25.558 | 68.037 | 73.848 | Color ramp taken from dummy 'Legend'; 2 to 4 | Use the projection option in the Print Layout to change to 4326 |
+| 2 | Overall Change (climate downscaled model) - s2 | 2 Overall Change (climate downscaled model) | Overall Change in Temperature (SSP370 ) (white 10pt) | 1:24990123 | 188.025 | 25.558 | 68.037 | 73.848 | Color ramp taken from proxy 'Legend'; 2 to 4 | Use the projection option in the Print Layout to change to 4326 |
 | 3 | Climatic suitability for koalas - s3  | 3 Climatic suitability for koalas | Climatic suitability for koalas (black 12pt)  | 1:3200000 | 0.000 | 102.906 | 98.000 | 90.000 | Color ramp; Unsuitable to Suitable | n/a |
 | 4 | Climatic suitability for koalas - s3  | 4 Projected suitability change (SSP370) | Projected suitability change (SSP370), current to 2090  (black 12pt) | 1:3200000 | 99.500 | 102.906 | 98.000 | 90.000 | Color ramp; Worse to Better | n/a |
-| 5 | Koala priority areas - s4  | 5 Priority areas | Priority areas for conservation (black 12pt)  | 1:3200000 | 199.000 | 102.906 | 98.000 | 90.000 | Legend | n/a |
+| 5 | Koala priority areas - s4  | 5 Priority areas | Priority areas for conservation (black 12pt)  | 1:3200000 | 199.000 | 102.906 | 98.000 | 90.000 | proxy 'Legend' | n/a |
 | 6 | Koala image  | 6 Koala image | n/a | 1:4517.773 | 255.990 | 0.500 | 48.812 | 83.954 | Legend | Decoration 'shape' |
 
 ### Other elements and Position on Page
@@ -37,13 +37,13 @@ nav_order: 4
 - `Position and Size` controls can be used to finely position and make the maps uniform
 
 # Let's make the map!
-There is a reference image in the Project folder and also on this website. There is also a template that can be used (a4_iccb_v8.qpt). If we are running out of time, we will use the print layout already loaded. 
+There is a reference image in the Project folder and also on this website. There is also a template that can be used (a4_iccb_v8.qpt). If we are running out of time, we will use the print layout already loaded.  
 
-When you navigate around the print layout screen, you have the panels and toolbars, following the logic as what is used in the Map Canvas. These all help set the parameters for the elements on the page.
+When you navigate around the print layout screen, you have the panels and toolbars, following the logic as what is used in the Map Canvas. These all help set the parameters for the elements on the page.  
 
 ![print-items](../media/print-items.png) 
 
-The panels include:
+The panels include:  
 
 - Item properties: used to set font, position on the page and specific requirements to the types of items like scale.
 - Items: listing of all the items. These items can be selected, deleted, moved up or down in order or renamed here.
@@ -51,11 +51,11 @@ The panels include:
 - Undo history: check your history and revert back
 - Layout: overall layout requirements, good to check before printing
 
-Several toolbars are present, but the one most used in this exercise will be the 'Toolbox'
+Several toolbars are present, but the one most used in this exercise will be the 'Toolbox'.  
 
 ![print-toolbar](../media/print-toolbar.png)
 
-From left to right, those highlighted are:
+From left to right, those highlighted are:  
 - Move item content
 - Add map
 - Add shape
@@ -69,7 +69,7 @@ From left to right, those highlighted are:
 > - **Save your project**
 
 ## 1 Set up the map text type
-Did you know you can set the text for the whole print layout - this saves so much time. For this product, we are going to use Roboto.
+Did you know you can set the text for the whole print layout - this saves so much time. For this product, we are going to use Roboto.  
 
 > - Click on `Settings > Layout Options`
 > - On the left, click on 'Layouts'
@@ -78,8 +78,8 @@ Did you know you can set the text for the whole print layout - this saves so muc
 > - **Save your project**
 
 ## 2 Add in the decorations
-Lets add in the rectangles that are in the background for the upper part of the page. 
-First, lets create the green rectangle:
+Lets add in the rectangles that are in the background for the upper part of the page.  
+First, lets create the green rectangle:  
 
 > - Click on  `Add shape > Add Rectangle'
 > - Draw a thin rectangle that streches the breadth of the page 
@@ -109,7 +109,7 @@ Because we want to create a rounded frame around the koala, we need to add it as
 > - Draw the box somewhere near the upper right of the page
 > - In the `Item Properties`, check the `Follow map theme` and from the dropdown, select 6 Koala image
 
-If it doesn't show, go back to the `Map Canvas`, right click the koala layer and select `Zoom to Layer`
+If it doesn't show, go back to the `Map Canvas`, right click the koala layer and select `Zoom to Layer`. To switch between the `Map Canvas` and the `Print Window` is just like switching between two open windows on your computer.  
 
 > - On the top of the `Item Properties`, click on the second button in to set the map extent to the current one.
 > - In the `Scale` enter 1:4517.773
@@ -120,60 +120,139 @@ If it doesn't show, go back to the `Map Canvas`, right click the koala layer and
 >   - Height: 83.954  
 > - **Save your project**
 
-Now we are going to make it fancy by giving it a rounded frame
+### Add a frame**
+Now we are going to make it fancy by giving it a rounded frame  
 
 > - Click on the `Add shape > Add rectangle`
 > - Draw a rectangle over the koala
 > - Set the corner radius to 5
 > - Change the fill style to 'no fill'
-> - Amend the `Position and Size`
+> - Amend the `Position and Size` (make sure you DON'T do this in the Extents section)
 >   - X: 256.140
 >   - Y: 9.691
 >   - Width: 38.081
 >   - Height: 59.712
 > - Click `Move item content' on the toolbox toolbar and click on the to move the koala image to it appears within the frame
-> - Name both the map (6 Koala map) and the frame (6 Koala frame)
+> - Switch over to the `Items` panel and name both the map (6 Koala map) and the frame (6 Koala frame)
 > - **Save your project**
 > - On the top of `Item properties`, click on the last icon `Clipping Settings`
 > - In the dialog, check the box `Clip to Item`
 > - From the dropdown, select '6 Koala frame'
 
-![clip-shape.png](../media/clip-shape.png.png)
+![clip-shape](../media/clip-shape.png.png)
 
 > - Click the back button to return to the `Item properties`
 > - **Save your project** 
 
-## 4 Add in the maps x5
-Let's add the map windows - there are 5 and most of them are the same size. So we add one and then copy it over and change the map theme. Saves time!
+## 4 Add in the map windows
+Let's add the map windows - there are 5 and most of them are the same size (or close to it). So we add one and then copy it over and change the map theme. Saves time! 
+**Let's start with the map - 1 AOI**
 
-> - Swutch back to the the `Map Canvas`
+> - Switch back to the the `Map Canvas`
 > - In the 'Context data' group, right click the 'LGA' layer and select `Zoom to Layer`
 > - Click the `Add map` button on the toolbox toolbar
-> - Draw the box somewhere near the upper right of the page
-> - In the `Item Properties`, check the `Follow map theme` and from the dropdown, select 6 Koala image
+> - Draw the box somewhere near the upper left of the page
+> - In the `Item Properties > Position and Size`, enter in the size of the map:
+>   - w: 92.638
+>   - h: 79.841
+>   - Set the scale: 1:3200000
+> - In the `Item Properties`, check the `Follow map theme` and from the dropdown, select '1 AOI'
+> - Switch over to the `Items` panel and name this map window '1 AOI'
+> - Copy this map window and place it in the lower part ofthe page
+> - In the `Items` panel and name this map window `3 Climatic suitability for koalas`
+> - Click back on '1 AOI'
+> - Amend the `Position and Size`
+>   - X: 2.596
+>   - Y: 8.795
+> - **Save your project** 
 
+Whilst it is still fresh in your mind, let's add in the fancy frame to the AOI by following the instructions in the previous section with the following parameters:
 
-start with aoi
-
+- Name: 1 AOI frame
+- Corner radius: 5
+- X: 2.746
+- Y: 8.945
+- Width: 92.338
+- Height: 79.541
 > - **Save your project**
+
+**Add in the other top map 2 - Overall Change (climate downscaled model) - s2**
+
+> - Switch back to the the `Map Canvas`
+> - In the '2 Overall Change (climate downscaled model) - s2' group, right click the '7844_tasChange_...' layer and select `Zoom to Layer`
+> - Click the `Add map` button on the toolbox toolbar
+> - Draw the box left of the koala
+> - In the `Item Properties > Position and Size`, amend the following:
+>   - X: 188.025
+>   - Y: 25.558
+>   - w: 68.037
+>   - h: 73.848
+> - In the `Item Properties`, check the `Follow map theme` and from the dropdown, select '2 Overall Change (climate downscaled model)'
+> - Click on `CRS` and select 'EPSG: 7844'
+
+![crs](../media/crs.png.png)
+
+> - Set the scale: 1:24990123
+> - Switch over to the `Items` panel and name this map window `2 Overall Change map`
+
+Add in a frame to sit over it:
+
+- Name: 2 Overall Change frame
+- Corner radius: 5
+- X: 191.328
+- Y: 27.186
+- Width: 61.447
+- Height: 70.591
+> - **Save your project**
+
+If the map is not fully in the frame, move it using the `Move item content` tool. 
+
+> - In the `Items` panel, uncheck the '2 Overall Change frame'
+> - In the `Toolbox` toolbar, select the `Move item content` button
+> - Click in the map image and move it to hide any blank spaces
+
+**Add in the lower 3 maps**
+> - Click on map 3 - Climatic suitability for koalas
+> - In the `Item Properties`, check the `Follow map theme` and from the dropdown, select '3 Climatic suitability for koalas'
+> - In the `Item Properties > Position and Size`, enter in the size of the map:
+>   - X: 0
+>   - Y: 102.906
+>   - Width: 98
+>   - Height: 90
+> - Set the scale: 1:3200000
+> - **Save your project**
+> - Copy this map window and place it to the direct right
+> - In the `Item Properties`, check the `Follow map theme` and from the dropdown, select `4 Projected suitability change (SSP370)`
+> - In the `Items` panel and name this map window `4 Projected suitability change (SSP370)`
+> - Click back on '1 AOI'
+> - In the `Item Properties`, amend the `Position and Size`
+>   - X: 99.500
+> - **Save your project**
+> - Copy this map window and place it to the direct right
+> - In the `Item Properties`, check the `Follow map theme` and from the dropdown, select `5 Priority areas`
+> - In the `Items` panel and name this map window `5 Priority areas`
+> - In the `Item Properties`, amend the `Position and Size`
+>   - X: 199.000
+> - **Save your project** 
 
 ## 5 Add in the legends
 The legend operations in QGIS is super powerful and there is ongoing development work. North Road has developed quite a few of the functions you will use. You don't have to accept how a legend item comes in. You can change how it looks, through sizing, font and formats. We are going to amend the text and size of the legends and also add in some proxy legends for visual purposes. 
 
+Let's start with map 3 - Climatic suitability for koalas
 > - On the top menu `Add Item > Add Legend`
 > - Draw a box to place the legend anywhere on the map (we will move it later)
-> - Ensure the legend matches your Map
+> - Ensure the legend matches your Map from the dropdown - let's start with map 3
 
 ![Map for legend](../media/legend-map2.png)  
 
 > - Under the `Legend Item` section, uncheck `Auto update`
-> - Select all the legen items in the window and delete them by click the red 'minus' sign below the window
+> - Select all the legend items in the window and delete them by click the red 'minus' sign below the window
 > - Click on the green 'plus' sign
-> - In the dialog `Add Layer to Legend`, click on the 'Show visible layers only`
+> - In the dialog `Add Layer to Legend`, at the bottom, click on the 'Show visible layers only`
 
 ![legend add layer](../media/legend-add-layer.png)  
 
-> -  Add in the required data
+> -  Add in the required data 'predicted_current.tf'
 
 Now this legend looks super clunky, so we are going make a little bit better.
 
@@ -185,9 +264,12 @@ Let's amend the text in the legend item:
 
 > - In the `Legend Items`, right mouse click on the title of dataset, and click 'Hidden'
 > - Double click on the ramp title 'Band 1:...' - this will take you into an editing widget
-> - Replace the text with the legend title to reflect the values of the ramp e.g. 'Suitability'
+> - Replace the text with the legend title to reflect the values of the ramp 'Suitability'
 > - Now, double click on the vertical ramp itself
 > - In `Minimum` and `Maximum`, enter the required values
+>   -  min: Unsuitable
+>   -  max: Suitable
+> - Click back to return to the main panel
 > - Expand `Fonts and Text Formatting` and click on the `Item font` - change this 8
 
 Let's amend the symbol size
@@ -195,6 +277,8 @@ Let's amend the symbol size
 > - Next expand `Symbol` and change the width to 4.00mm and the height to 15.00mm
 > - Position it to the upper left of the assocaited map
 > - **Save your project**
+
+![legend-symbol](../media/legend-symbol.png)  
 
 *Repeat for map 4 - hint, you can copy and paste legends and change the content. This will keep the same format for font/size*
 
@@ -255,9 +339,10 @@ But as we need to itlaicised the scientific name, we need to turn this into HTML
 The scale bar option has many options, including the scale text known as `Numeric`
 > - On the top menu `Add Item > Add Scale Bar`
 > - Draw a box to place the Scale Bar anywhere on the map (we will move it later)
-> - In the `Item Properties`
-Change font via `Appearance > Font`
-
+> - In the `Item Properties` Change font via `Appearance > Font`
 > - **Save your project**
+
+## Add in the titles
+
 
 ## 8 Print your map and review it
