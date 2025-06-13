@@ -29,7 +29,7 @@ We will cover:
 ### Other elements and Position on Page
 | ID | Map        | Font | Size | Color | X  | Y  | Width | Height | Alignment/Type | Note |
 |-----|------------|-----|-------------|--------|-------------|-----|-----|-----|-----|-----|
-| 1 | Scale text  | Roboto | 8 | Black | 280.056 | 204.100 | 18.113 | 5.752 | Numeric | ----- |
+| 1 | Scale text  | Roboto | 8 | Black | 280.056 | 204.100 | 18.113 | 5.752 | Numeric | n/a |
 | 2 | Scale bar  | Roboto  | 6 | Black | 245.883 | 199.350 | 39.616 | 10.650 | Line Ticks Middle or your choice| Segments: left;0/right 4, Fixed width 25.0 units|
 | 3 | Data credentials  |  Roboto  | 6 | Black | 2.596 | 204.100 | 236.516 | 4.412 | Left | Uses dynamic and free text |
 | 4 | Problem statement  | Roboto | 10 | Black | 98.000 | 27.036 | 90.113 | 70.891 | Justify | Html, Line height 130% |
@@ -42,8 +42,6 @@ We will cover:
 - The scale is the same for all the maps, except the the Overall Change in Temperature
 - `Position and Size` controls can be used to finely position and make the maps uniform
 
-```
-
 ## 1 Set up the map text type
 ## 2 Add in the decorations
 ## 3 Add in the koala
@@ -52,9 +50,19 @@ We will cover:
 - add in the frame
 ## 5 Add in the legends
 > - On the top menu `Add Item > Add Legend`
-> - 
-Ensure the legend matches your Map
-![Map for legend](../media/legend-map.png)  
+> - Draw a box to place the legend anywhere on the map (we will move it later)
+> - Ensure the legend matches your Map
+
+![Map for legend](../media/legend-map2.png)  
+
+> - Under the `Legend Item` section, uncheck `Auto update`
+> - Select all the legen items in the window and delete them by click the red 'minus' sign below the window
+> - Click on the green 'plus' sign
+> - In the dialog `Add Layer to Legend`, click on the 'Show visible layers only`
+
+![legend add layer](../media/legend-add-layer.png)  
+
+> -  
 
 ### Amending text
 Hidden titles
@@ -74,8 +82,13 @@ But as we need to itlaicised the scientific name, we need to turn this into HTML
 ```<p> Koalas (<i>Phascolarctos cinereus</i>) in South East Queensland (SEQ) inhabit fragmented eucalypt woodlands and rely heavily on Eucalyptus species for food and shelter. The population is already under pressure from habitat loss, disease (notably chlamydia), and vehicle collisions. </p>
 <p>Climate change poses additional threats through increased frequency of heatwaves, droughts, and bushfires, which reduce food quality, water availability, and suitable habitat. </p>
 <p>This workshop set out to apply open source geospatial tools to better understanding how future climate may impact these populations, and how resources can be best directed towards conserving this iconic species. </p>
+```
 
 ## 7 Scale bar and text
+The scale bar option has many options, including the scale text known as `Numeric`
+> - On the top menu `Add Item > Add Scale Bar`
+> - Draw a box to place the Scale Bar anywhere on the map (we will move it later)
+> - In the `Item Properties`
 Change font via `Appearance > Font`
 
 ## 8 Print your map and review it
