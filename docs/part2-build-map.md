@@ -35,12 +35,26 @@ nav_order: 4
 - `Position and Size` controls can be used to finely position and make the maps uniform
 
 ## 1 Set up the map text type
+
+> - **Save your project**
+
 ## 2 Add in the decorations
+
+> - **Save your project**
+
 ## 3 Add in the koala
 - add in the frame
+
+> - **Save your project**
+
 ## 4 Add in the maps x5
 - add in the frame
+
+> - **Save your project**
+
 ## 5 Add in the legends
+The legend operations in QGIS is super powerful and there is ongoing development work. North Road has developed quite a few of the functions you will use. You don't have to accept how a legend item comes in. You can change how it looks, through sizing, font and formats. We are going to amend the text and size of the legends and also add in some proxy legends for visual purposes. 
+
 > - On the top menu `Add Item > Add Legend`
 > - Draw a box to place the legend anywhere on the map (we will move it later)
 > - Ensure the legend matches your Map
@@ -54,15 +68,63 @@ nav_order: 4
 
 ![legend add layer](../media/legend-add-layer.png)  
 
-> -  
+> -  Add in the required data
 
-### Amending text
-Hidden titles
-Change the text
+Now this legend looks super clunky, so we are going make a little bit better.
 
-### Amending Values
-Max
-Min
+![legend original state](../media/legend_start.png)  
+![legend end state](../media/legend_end.png)  
+
+### For maps 3-4
+Let's amend the text in the legend item:
+
+> - In the `Legend Items`, right mouse click on the title of dataset, and click 'Hidden'
+> - Double click on the ramp title 'Band 1:...' - this will take you into an editing widget
+> - Replace the text with the legend title to reflect the values of the ramp e.g. 'Suitability'
+> - Now, double click on the vertical ramp itself
+> - In `Minimum` and `Maximum`, enter the required values
+> - Expand `Fonts and Text Formatting` and click on the `Item font` - change this 8
+
+Let's amend the symbol size
+
+> - Next expand `Symbol` and change the width to 4.00mm and the height to 15.00mm
+> - Position it to the upper left of the assocaited map
+> - **Save your project**
+
+*Repeat for the map 4 - hint, you can copy and paste legends and change the content. This will keep the same format for font/size*
+
+### Proxy legends 
+Sometimes a legend does not work in your favour, so you need to do some magic.  
+
+#### Map 2 - Overall Change in Temperature
+In this instance, the raster styling is 'Discrete' and therefor returns a legend such as this:
+![legend-discrete](../media/legend-discrete.png)  
+
+But we want to put in a ramp here, it the product was more technical, then we may spend the time in amending it through the size of the symbol and cutting out the spaces between the symbols and removing the black outline. But, I want you to learn how to approach a problem like this by using a proxy. 
+
+> - Switch back to the `Map Canvas`, under the 2 Map group, dupliate the data and call it 'legend'
+> - Change the Interpolation to 'Linear'
+> - **Save your project**
+> - Switch back to the `Print Layout`
+> - Add a legend item and make sure it's linked to the map 2
+> - Add in the 'Legend' dataset for it
+> - Run through the amendements as per last exercise
+> - **Save your project**
+
+#### Map 5 - Priority Areas for Conservation
+For some reason, the scenario dataset is not showing up. So we are going to create one from another dataset. 
+
+> - Create a legend item
+> - Add in the dataset 'AOI'
+> - Double click on the dataset to open up the `Legend Item Properties`
+> - Change the text to 'Priority area'
+> - Check the `Custom Symbol` and click in the color bar
+> - Enter in the color code '#bc3030'
+> - Click on the back arrow at the top
+> - Under `Symbol`, make it a square - enter in the width 4.00mm and height 4.00mm into the fields
+> - **Save your project**
+
+![legend-item-properties](../media/legend-item-properties.png)  
 
 ## 6 Add in the text
 ### Problem statement to add
@@ -76,11 +138,15 @@ But as we need to itlaicised the scientific name, we need to turn this into HTML
 <p>This workshop set out to apply open source geospatial tools to better understanding how future climate may impact these populations, and how resources can be best directed towards conserving this iconic species. </p>
 ```
 
+> - **Save your project**
+
 ## 7 Scale bar and text
 The scale bar option has many options, including the scale text known as `Numeric`
 > - On the top menu `Add Item > Add Scale Bar`
 > - Draw a box to place the Scale Bar anywhere on the map (we will move it later)
 > - In the `Item Properties`
 Change font via `Appearance > Font`
+
+> - **Save your project**
 
 ## 8 Print your map and review it
