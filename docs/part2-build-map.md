@@ -109,7 +109,7 @@ Because we want to create a rounded frame around the koala, we need to add it as
 > - Draw the box somewhere near the upper right of the page
 > - In the `Item Properties`, check the `Follow map theme` and from the dropdown, select 6 Koala image
 
-If it doesn't show, go back to the map canvas, right click the koala layer and select `Zoom to Layer
+If it doesn't show, go back to the `Map Canvas`, right click the koala layer and select `Zoom to Layer`
 
 > - On the top of the `Item Properties`, click on the second button in to set the map extent to the current one.
 > - In the `Scale` enter 1:4517.773
@@ -143,9 +143,16 @@ Now we are going to make it fancy by giving it a rounded frame
 > - Click the back button to return to the `Item properties`
 > - **Save your project** 
 
-
-
 ## 4 Add in the maps x5
+Let's add the map windows - there are 5 and most of them are the same size. So we add one and then copy it over and change the map theme. Saves time!
+
+> - Swutch back to the the `Map Canvas`
+> - In the 'Context data' group, right click the 'LGA' layer and select `Zoom to Layer`
+> - Click the `Add map` button on the toolbox toolbar
+> - Draw the box somewhere near the upper right of the page
+> - In the `Item Properties`, check the `Follow map theme` and from the dropdown, select 6 Koala image
+
+
 start with aoi
 
 > - **Save your project**
