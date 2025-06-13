@@ -128,7 +128,8 @@ For some reason, the scenario dataset is not showing up. So we are going to crea
 
 ## 6 Add in the text
 ### Problem statement to add
-The text we want to use is:
+The text we want to use is:  
+
 Koalas (*Phascolarctos cinereus*) in South East Queensland (SEQ) inhabit fragmented eucalypt woodlands and rely heavily on Eucalyptus species for food and shelter. The population is already under pressure from habitat loss, disease (notably chlamydia), and vehicle collisions. Climate change poses additional threats through increased frequency of heatwaves, droughts, and bushfires, which reduce food quality, water availability, and suitable habitat. This workshop set out to apply open source geospatial tools to better understanding how future climate may impact these populations, and how resources can be best directed towards conserving this iconic species. 
 
 But as we need to itlaicised the scientific name, we need to turn this into HTML text:
