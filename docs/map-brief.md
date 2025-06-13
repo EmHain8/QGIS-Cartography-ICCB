@@ -6,14 +6,15 @@ nav_order: 2
 
 ## Create a A4 poster showing:
 
-**Title**: Koala Conservation under Climate Change
+### Title
+Koala Conservation under Climate Change
 
-**Description text**
+### Description text
 Koalas (*Phascolarctos cinereus*) in South East Queensland (SEQ) inhabit fragmented eucalypt woodlands and rely heavily on Eucalyptus species for food and shelter. The population is already under pressure from habitat loss, disease (notably chlamydia), and vehicle collisions. Climate change poses additional threats through increased frequency of heatwaves, droughts, and bushfires, which reduce food quality, water availability, and suitable habitat. This workshop set out to apply open source geospatial tools to better understanding how future climate may impact these populations, and how resources can be best directed towards conserving this iconic species.
    
-**Picture of a Koala**
-
-    - Data: koala_1.jpeg
+### Picture of a Koala
+We've taklen a picture that has the koala looking to the map details/
+- Data: koala_1.jpeg
 
 ### Maps
 1. Area of Interest (AOI) - South East Queensland (SEQ)
