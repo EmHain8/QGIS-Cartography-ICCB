@@ -159,7 +159,7 @@ Map 3 is to show the suitability for Koalas in the current climatic conditions, 
 > - In the `Layer Style` panel, choose the style type 'Singleband pseudocolor'
 > - Ensure the 'Interpolation' is 'Linear'
 > - Click on the color ramp dropdown > 'All color ramps' > 'koala'
-> - > - Set the opacity to 80% (second tab)
+> - Set the opacity to 80% (second tab)
 > - **Save your project**
 
 ## Create the Mask
@@ -169,11 +169,25 @@ Map 3 is to show the suitability for Koalas in the current climatic conditions, 
 > - Move this layer to the sit under the 'Mask' group  
 > - Rename it to AOI (right mouse click > `Rename Layer`) and click on it so it becomes the `Active` layer  
 > - Right mouse click anywhere in a blank area on the toolbar at the top and select `Panels > Layer Styling Panel`  
-> ![layer styling panel](../media/layer-styling-panel.png)  
+
+ ![layer styling panel](../media/layer-styling-panel.png)  
+
 > - In the `Layer Styling` panel, select from the drop down `Inverted Polygons'  
 > - Click on `Simple Fill` and remove the outline and change the colour to white and then to remove the line, change the 'Stroke style' to 'No line'
-> ![inverted-polygons](../media/inverted-polygons.png)
+
+![inverted-polygons](../media/inverted-polygons.png)
+
 > - **Save your project**  
+
+We want to add in an additional effect here to create a shadow look.
+
+> - Create a new style for the layer AOI called 'shadow'
+> - In the `Layer Style` panel, down the bottom, check the box next to 'Draw effects'
+> - Click on the star button on the same line
+> - Check 'Inner' Shadow and check the parameters are the same as the picture below
+
+![inner-shadow](../media/inner-shadow.png)  
+
 
 This is the mask we want for the 'Island' look for the Grid data, but for the AOI, we want to still see the surrounds so it helps us get our bearings. To do this, we are going to create an additional style for the AOI layer.  
 
@@ -187,16 +201,18 @@ The `Shapeburst Fill` is a great effect and can also be used for styling water b
 
 We are going to use the greens from our `Project colors` palette  
 
-> - For Color 1, select the darkest green you have  
-> - For Color 2, select white  
+> - For Color 1, select the darkest green you have or use #3b3e29
+> - Make it 66% transparent
+> - For Color 2, select white
+> - Make it 66% transparent
 > - Click ok
 > ![color-ramp](../media/color-ramp2.png)  
 > - **Save your project**  
 
-Last step for this AOI, we want to make it transparent.  
+Last step for this AOI, we want to make it more transparent.  
 
 > - In `Layer Styling`, at the bottom, expand the `Lyaer Rendering` options  
-> - Nect to `Opacity` click in the percentage field and make it 66%  
+> - Next to `Opacity` click in the percentage field and make it 66%  
 >  ![layer-rendering](../media/layer-rendering.png)  
 
 As you can see here, the QLD Imagery does not extend into the Coral Sea enough, so this is where we may have to replace it with another service. Ensure you have the rights to use it. An easy fix it to set the map property background colour to that of the sea. 
@@ -212,6 +228,37 @@ As you can see here, the QLD Imagery does not extend into the Coral Sea enough, 
 ![select-color](../media/select-color.png)
  
 
+## Map Themes
+Map themes are a great way to make sure your data is shown in the correct maps - super important when you have multiple maps in the same project or showing multiple map views (like we are doing). 
 
+**Map 1 - AOI**
 
+> - Make sure the ONLY the following layers are turned on:
+>   -   AOI (style = AOI)
+>   -   LGA (style = default)
+>   -   QLD Imagery
 
+*Hint - to turn off all of your layers, Right click the 'ICCB' group and click on 'Uncheck and All of its children'
+   
+> - At the top of the layers, click the eye dropdown `Manage Map Themes`
+> - Click 'Add Theme'
+> - Name the theme '1 AOI'
+> - **Save your project**  
+
+**Map 2 - Overall Change**
+
+> - Make sure the ONLY the layers in the group '2 Overall Change (climate downscaled model) - s2' are turned on
+> - At the top of the layers, click the eye dropdown
+> - Click 'Add Theme'
+> - Name the theme '2 Overall Change (climate downscaled model)'
+> - **Save your project**
+
+Now let's update the rest of the map themes with the Mask Layer - but this time, we want the one that makes them look like an 'island'.
+
+> - Turn on the map theme '3 Climatic suitability for koalas'
+> - Make sure the ONLY the layers in the group '3 Climatic suitability for koalas - s3' are turned on
+> - Turn on the AOI layer using the style 'shadow'
+> - Click `Manage Map Themes > Replace Theme` and select '3 Climatic suitability for koalas - s3'
+> - **Save your project**
+
+Repeast for map themes 4 and 5 by adding in the AOI layer using the style 'shadow'.
