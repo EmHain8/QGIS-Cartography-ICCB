@@ -8,6 +8,7 @@ nav_order: 3
 We will cover the following:
 
 - Organise your layers to make you efficient
+- Replacing datasets
 - Choosing your colors for you brand via your own palette
 - Creating a mask to focus your views on your data
 - Labeling
