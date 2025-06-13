@@ -24,33 +24,24 @@ We all consume branding everyday and choosing a palette of colors is a part of i
 > - On the top menu, click on `Settings > Options'  
 > - In the `Options`, select `Colors` on the left side  
 >  ![palette](../media/palette3.png)  
-> - Click on the drop down where it says *Standard colors* and select *Project colors*  
+> - Click on the drop down where it says *Standard colors* and select *Project colors*
+
+A number of colors have already been added to save time. 
+
+![palette-koala](../media/palette-koala.png)  
+
 > - Click on the green plus button to bring up the `Select color` dialog
 > ![palette_sample](../media/palette_sample.png)  
 > - Click on the `Sampling`tab  
 > - To start collecting the colors for the palette click the `Sample color`button  
-> - Let's start with a light grey first, so click the background of the koala image to pick up the grey and click `OK`  
+> - Click anywhere on the image to capture a color and click `OK`
 > ![palette_grey](../media/palette_grey.png)
-> - **Save your project**  
-
-The grey now appears in the palette. you can change the label it you want. Repeat the above to capture the following:
-
-- Browns from the trunk
-- Greens from the leaves
-- Greys from the fur and nose
-- Pinks from the fur
-> ![palette-koala](../media/palette-koala.png)  
 > - click `OK`  
 > - **Save your project**  
 
 These project colors are now built into this project file. They will appear when you go to the palette option to select colors. 
 
-## AOI Map
-First, we are going to create our "AOI" map - our area of interest. For this we will want the following datasets turned on:  
 
-- Mask: seq_boundary  
-- LGA: local_government_area  
-- Qld Imagery
 
 ### Create the Mask
 
@@ -91,27 +82,16 @@ Last step for this AOI, we want to make it transparent.
 
 As you can see here, the QLD Imagery does not extend into the Coral Sea enough, so this is where we may have to replace it with another service. Ensure you have the rights to use it. An easy fix it to set the map property background colour to that of the sea. 
 
+> - Make sure only the QLD Imagery layer is turned on
+> - On the top menu, click on `Project > Properties`
+> - Next to 'Background color', click in the color bar
+> - Click on the `Sample tab` and `Sample color` button
+> - Click close to the edge of the ocean to pick up the darkest blues to use
+> - Click 'OK'
+> - Click 'Apply' and 'OK' in the `Project Properties`
+
 ![select-color](../media/select-color.png)
-
-Let's sort out our LGA's now with boundaries and some labels.  
-
-**Boundaries**  
-
-> - Under 'Original data' duplicate 'local_government_area' and move the dupe into the 'Context data' group
-> - Rename it 'LGA'
-> - In the `Layer Styling`, click on `Simple Fill` and change the outline to a light grey (#d9d9d9)
-
-**Labels**
-
-> - In the `Layer Styling`, click on the label tab  
-> ![label-tab](../media/label-tab.png)  
-> - Select from the dropdown `Single Labels`  
-> - For the value, select 'abbrev_name'  
-> - Select the font 'Roboto Black', size 6  
-> - For the color, select the same color as the outline - this should be on the palette  
-> - Click on the next tab and add in Multiple lines based on spacing  
-> - Add a `Text Buffer` of 0.7  
-> - Select a dark color form the `Project colors` palette  
+ 
 
 
 
