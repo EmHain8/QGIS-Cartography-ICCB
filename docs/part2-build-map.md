@@ -4,16 +4,8 @@ title: "Part 2: Build a Beautiful Map"
 nav_order: 4
 ---
 
-We will cover:
+![End Map](../media/a4_multi-panel_v8.png)
 
-- Adding items
-- Setting up font
-- Decorations
-  - Rounded frames
-  - Adding pictures and other items
-- Making it uniform
-- Legend wrangling
-- Data Credits
 
 ## All the details
 ### Maps, Scale and Position on Page
