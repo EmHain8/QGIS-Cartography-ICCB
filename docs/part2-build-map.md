@@ -385,10 +385,18 @@ But as we need to itlaicised the scientific name, we need to turn this into HTML
 
 ## 7 Scale bar and text
 The scale bar option has many options, including the scale text known as `Numeric` or the actual bar
+
 > - On the top menu `Add Item > Add Scale Bar`
 > - Draw a box to place the Scale Bar anywhere on the map (we will move it later)
 > - In the `Item Properties` Change font via `Appearance > Font`
 > - **Save your project**
+
+Add in the data credentials text. The interesting aspect here is that if the data has an attribution in the Layer properties under Metadata/Access/Rights, we can bring it in using dynamic text. 
+
+![data-attribution](../media/data-attribution.png)  
+
+
+
 
 ## 8 Add in the titles
 Let's add in the titles.
