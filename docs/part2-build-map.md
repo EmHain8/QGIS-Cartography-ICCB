@@ -368,11 +368,23 @@ But as we need to itlaicised the scientific name, we need to turn this into HTML
 <p>Climate change poses additional threats through increased frequency of heatwaves, droughts, and bushfires, which reduce food quality, water availability, and suitable habitat. </p>
 <p>This workshop set out to apply open source geospatial tools to better understanding how future climate may impact these populations, and how resources can be best directed towards conserving this iconic species. </p>
 ```
-
+> - Click on the text button in the `Toolbox` toolbar
+> - Draw a square between the AOI and Climate map on the pink background
+> - Copy and paste the above htmml text
+> - Check the button 'Render as HTML'
+> - Click on font and check the size is 10pt
+> - Click the second tab `Formatting`
+> - Change the line height percentage to 130
+> - In the `Item Properties`, amend the `Position and Size`
+>   -  X: 98.000
+>   -  Y: 27.036
+>   -  W: 90.113
+>   -  H: 70.891
+> - In the Appearance, set the `Horizontal alignment` to 'Justify'
 > - **Save your project**
 
 ## 7 Scale bar and text
-The scale bar option has many options, including the scale text known as `Numeric`
+The scale bar option has many options, including the scale text known as `Numeric` or the actual bar
 > - On the top menu `Add Item > Add Scale Bar`
 > - Draw a box to place the Scale Bar anywhere on the map (we will move it later)
 > - In the `Item Properties` Change font via `Appearance > Font`
@@ -386,7 +398,7 @@ On the maps:
 - Map 1 - South-East Queensland (white 10pt)
 - Map 2 - Overall Change in Temperature (SSP370 ) (white 10pt)
 
-At the bottom of the maps:
+At the bottom of each the maps:
 
 - Map 3 - Climatic suitability for koalas (black 12pt)
 - Map 4 - Projected suitability change (SSP370), current to 2090 (black 12pt)
