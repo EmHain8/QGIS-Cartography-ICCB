@@ -40,7 +40,7 @@ We will cover:
 **Things to note:**
 
 - The scale is the same for all the maps, except the the Overall Change in Temperature
-- We use the `Position and Size` controls to position and make the maps uniform
+- `Position and Size` controls can be used to finely position and make the maps uniform
 
 ## The Map Brief
 Title: Open Source Geospatial Tools for Conservation under Climate Change - a Koala Case Study
