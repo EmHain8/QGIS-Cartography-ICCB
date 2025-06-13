@@ -160,6 +160,17 @@ Map 3 is to show the suitability for Koalas in the current climatic conditions, 
 > - Set the opacity to 80% (second tab)
 > - **Save your project**
 
+## Use no data
+For map 5, the Koala priority areas, it is a binary datasets - so either a 0 or 1. We are going to use the relief as a base and color the value 1 as a transparent red.
+
+> - In the map 5 group, click on the 'scenario_4' layer
+> - Change the type to 'Single Color'
+> - Click in the color band, and select the red from the project palette colors or use the code #bc3030
+> - Click the second tab down 'Transparency'
+> - In the 'Additional NoData value' enter in 0 to remove them from the map
+> - Change the 'Gloabl Opacity to 66%
+> - **Save your project**
+
 ## Create the Mask
 
 > - Under 'Original data' turn on the layer seq_boundary and zoom to it (right mouse click)
