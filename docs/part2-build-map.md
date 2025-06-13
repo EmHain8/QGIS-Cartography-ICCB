@@ -9,6 +9,7 @@ nav_order: 4
 
 ## All the details
 ### Maps, Scale and Position on Page
+
 | ID | Map        | Map Theme | Title | Scale | X  | Y  | Width | Height | Legend | Note |
 |-----|------------|-----|-------------|--------|-------------|-----|-----|-----|-----|-----|
 | 1 | Area of Interest (AOI) | 1 AOI | South-East Queensland (white 10pt)| 1:3200000 | 2.596 | 8.795 | 92.638 | 79.841 | n/a | Decoration 'shape' |
@@ -19,6 +20,7 @@ nav_order: 4
 | 6 | Koala image  | 6 Koala image | n/a | 1:4517.773 | 255.990 | 0.500 | 48.812 | 83.954 | Legend | Decoration 'shape' |
 
 ### Other elements and Position on Page
+
 | ID | Map        | Font | Size | Color | X  | Y  | Width | Height | Alignment/Type | Note |
 |-----|------------|-----|-------------|--------|-------------|-----|-----|-----|-----|-----|
 | 1 | Scale text  | Roboto | 8 | Black | 280.056 | 204.100 | 18.113 | 5.752 | Numeric | n/a |
@@ -97,10 +99,10 @@ Let's amend the symbol size
 Sometimes a legend does not work in your favour, so you need to do some magic.  
 
 #### Map 2 - Overall Change in Temperature
-In this instance, the raster styling is 'Discrete' and therefor returns a legend such as this:
+In this instance, the raster styling is 'Discrete' and therefore returns a legend such as this:
 ![legend-discrete](../media/legend-discrete.png)  
 
-But we want to put in a ramp here, it the product was more technical, then we may spend the time in amending it through the size of the symbol and cutting out the spaces between the symbols and removing the black outline. But, I want you to learn how to approach a problem like this by using a proxy. 
+But we want to put in a ramp here, if the product was more technical, then we may spend the time in amending it through the size of the symbol and cutting out the spaces between the symbols and removing the black outline. But, I want you to learn how to approach a problem like this by using a proxy. 
 
 > - Switch back to the `Map Canvas`, under the 2 Map group, dupliate the data and call it 'legend'
 > - Change the Interpolation to 'Linear'
@@ -112,9 +114,10 @@ But we want to put in a ramp here, it the product was more technical, then we ma
 > - **Save your project**
 
 #### Map 5 - Priority Areas for Conservation
-For some reason, the scenario dataset is not showing up. So we are going to create one from another dataset. 
+For some reason, the scenario dataset is not showing up, so we are going to create one from another dataset. 
 
-> - Create a legend item
+> - Create a legend item and remove all of the items
+> - Link it to map 5
 > - Add in the dataset 'AOI'
 > - Double click on the dataset to open up the `Legend Item Properties`
 > - Change the text to 'Priority area'
