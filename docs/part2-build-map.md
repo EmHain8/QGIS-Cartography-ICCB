@@ -222,18 +222,20 @@ If the map is not fully in the frame, move it using the `Move item content` tool
 > - Set the scale: 1:3200000
 > - **Save your project**
 > - Copy this map window and place it to the direct right
-> - In the `Item Properties`, check the `Follow map theme` and from the dropdown, select `4 Projected suitability change (SSP370)`
-> - In the `Items` panel and name this map window `4 Projected suitability change (SSP370)`
+> - In the `Item Properties`, check the `Follow map theme` and from the dropdown, select '4 Projected suitability change (SSP370)'
+> - In the `Items` panel and name this map window '4 Projected suitability change (SSP370)'
 > - Click back on '1 AOI'
 > - In the `Item Properties`, amend the `Position and Size`
 >   - X: 99.500
 > - **Save your project**
 > - Copy this map window and place it to the direct right
-> - In the `Item Properties`, check the `Follow map theme` and from the dropdown, select `5 Priority areas`
-> - In the `Items` panel and name this map window `5 Priority areas`
+> - In the `Item Properties`, check the `Follow map theme` and from the dropdown, select '5 Priority areas'
+> - In the `Items` panel and name this map window '5 Priority areas'
 > - In the `Item Properties`, amend the `Position and Size`
 >   - X: 199.000
-> - **Save your project** 
+> - **Save your project**
+
+> - In the `Items` move maps 3-5 to sit below the pink rectangle
 
 ## 5 Add in the legends
 The legend operations in QGIS is super powerful and there is ongoing development work. North Road has developed quite a few of the functions you will use. You don't have to accept how a legend item comes in. You can change how it looks, through sizing, font and formats. We are going to amend the text and size of the legends and also add in some proxy legends for visual purposes. 
@@ -252,7 +254,7 @@ Let's start with map 3 - Climatic suitability for koalas
 
 ![legend add layer](../media/legend-add-layer.png)  
 
-> -  Add in the required data 'predicted_current.tf'
+> -  Add in the required data: 'predicted_current.tf'
 
 Now this legend looks super clunky, so we are going make a little bit better.
 
@@ -282,6 +284,18 @@ Let's amend the symbol size
 
 *Repeat for map 4 - hint, you can copy and paste legends and change the content. This will keep the same format for font/size*
 
+> - Copy and paste the legend into the map 4 area
+> - Change the map to '4 Projected suitability change (SSP370)'
+> - Click on the green 'plus' sign
+> - In the dialog `Add Layer to Legend`, at the bottom, click on the 'Show visible layers only`
+> -  Add in the required data: 'future370-current.tif'
+> -  remove the map 3 data bly clicking on it and the red minus sign
+> -  Follow the directions above to amend the title and values to:
+>    - Title: Suitability 
+>    - Min: Worse
+>    - Max: Better
+> - **Save your project**
+
 ### Proxy legends 
 Sometimes a legend does not work in your favour, so you need to do some magic.  
 
@@ -301,7 +315,15 @@ But we want to put in a ramp here, if the product was more technical, then we wo
 > - Switch back to the `Print Layout`
 > - Add a legend item and make sure it's linked to the map 2
 > - Add in the 'legend' dataset for it
-> - Run through the amendements as per last exercise
+> - Run through the amendements as per last exercise using the following parameters
+>   - Title: no title - put in a space
+>   - Min: 2
+>   - Max: 4
+>   - Symbol size: 4 x 50mm
+> - Uncheck 'Draw stroke for raster symbols'
+> - Set the font: white 8pt
+> - Uncheck the Background
+> - Place it on the right side of the map
 > - **Save your project**
 
 **Map 5 - Priority Areas for Conservation**
@@ -313,7 +335,7 @@ For some reason, the scenario dataset is not showing up, so we are going to crea
 > - Double click on the dataset to open up the `Legend Item Properties`
 > - Change the text to 'Priority area'
 > - Check the `Custom Symbol` and click in the color bar
-> - Enter in the color code '#bc3030'
+> - Click through to change to red (color code '#bc3030')
 > - Click on the back arrow at the top
 > - Under `Symbol`, make it a square - enter in the width 4.00mm and height 4.00mm into the fields
 > - **Save your project**
@@ -321,6 +343,20 @@ For some reason, the scenario dataset is not showing up, so we are going to crea
 ![legend-item-properties](../media/legend-item-properties.png)  
 
 ## 6 Add in the text
+Let's add in the titles.
+- Main title - Koala Conservation under Climate Change (Roboto black white 21pt)
+
+On the maps: 
+- Map 1 - South-East Queensland (white 10pt)
+- Map 2 - Overall Change in Temperature (SSP370 ) (white 10pt)
+
+At the bottom of the maps:
+
+- Map 3 - Climatic suitability for koalas (black 12pt)
+- Map 4 - Projected suitability change (SSP370), current to 2090 (black 12pt)
+- Map 5 - Priority areas for conservation (black 12pt)
+
+
 ### Problem statement to add
 The text we want to use is:  
 
@@ -342,7 +378,29 @@ The scale bar option has many options, including the scale text known as `Numeri
 > - In the `Item Properties` Change font via `Appearance > Font`
 > - **Save your project**
 
-## Add in the titles
+## 8 Add in the titles
+Let's add in the titles.
+- Main title - Koala Conservation under Climate Change (Roboto black white 21pt)
 
+On the maps: 
+- Map 1 - South-East Queensland (white 10pt)
+- Map 2 - Overall Change in Temperature (SSP370 ) (white 10pt)
 
-## 8 Print your map and review it
+At the bottom of the maps:
+
+- Map 3 - Climatic suitability for koalas (black 12pt)
+- Map 4 - Projected suitability change (SSP370), current to 2090 (black 12pt)
+- Map 5 - Priority areas for conservation (black 12pt)
+
+## 9 Print your map and review it
+QGIS allows you to print out your map to a pdf, svg, image or hardcopy. Printing out the map allows you to review it to assess for quality. 
+
+> - Click on the image or pdf output buttons at the top
+
+![print](../media/print.png)  
+
+> - Save as ...v1
+> - Look through it and send it to someone to look through it
+> - Take on all recommendations and assess them
+> - Apply required the recommendations
+> - Print out to ...v2 and then recheck with the same and different reviewers
