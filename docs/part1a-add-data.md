@@ -4,7 +4,7 @@ title: "Ref 1a: Add Data"
 nav_order: 6
 ---
 ## Data types
-![Course data](../media/course_data.png)  
+![Course data](../media/course_datax.png)  
 In this course, we will be using vector and raster spatial data as well as images to complete our poster.  
 ### Vector data
 Point
@@ -82,3 +82,48 @@ We won't close this yet as we need to add in watercourses.
 Now add in Population centres using the Data source manager - but be careful to select only those covering the extent.  
 - It is in the QLD service under Location > Places  
 - Use the search function to find it quickly  
+
+## Loading data
+Loading data can occur in multiple ways. For this course, we will use the Browser and the Data Source Manager.  
+
+One of the important aspects to an efficient mapping product, is keeping it tidy. A way to do this is to create `Groups` in the `Layers` panel.   
+
+![layer groups](../media/groups.png)  
+> - Create the above groups in the layers panel by right mouse clicking in the layer panel and selecting `Add group`.  
+> ![Add a group](../media/add_group.png)  
+
+### Browser
+Accessing the data via the `Browser` panel, we will add the data to the groups. 
+> - Ensure you have the `Browser` panel open.  
+> ![Browser panel](../media/browser.png)  
+> - At the top of the `Browser`, click on the arrow next to `Project Home` to expand it  
+> ![project home](../media/Project_home.png)  
+> - Expand the Data folder  
+
+We are going to select multiple files and load them under the group headings 
+> - First, in the `Layers` panel, click on the group 'Original data'  
+> ![Select group](../media/select_group.png)  
+> - Then head over to the `Browser` panel and expand the data folder.  
+We want to select multiple files and load them into the 'Original data' group. We can do this by holding down the ctrl key whilst clicking on multiple the files.
+> - Hold down the `ctrl`key, and click on the following files
+>   - 'current_distribution_RF_1.tif'  
+>   - Expand the geopackage and click on all the layers*  
+> - With all of these selected, click on the `Add selected layer` button at the top of the `Browser` panel  
+> ![Selected layers](../media/add-selected-layers2.png)  
+> - This results in layers nested under the 'Original data' group  
+> ![group layers](../media/group_layers.png)  
+> - Turn off the layers, population_centres and watercourse  
+> - **Save your project**  
+
+*N.B. The layers in the geopackage have been extracted from the ArcGIS REST Service from the Queensland Government. Refer to [Ref A - Add Data](https://emhain8.github.io./QGIS-Cartography-ICCB/docs/part1a-add-data.html) for step by step instructions for other methods.*   
+
+Nearly there with the data, we just need to add in a basemap.  
+> - In the `Layers` panel, click on the group 'Base'  
+> - In the `Browser`, under `XYZ Tiles`, click on 'Qld Imagery'  
+> - Click on the `Add selected layer` button at the top of the `Browser` panel
+
+Next, we are going to add in the picture of the Koala. We are doing this as we want to be a little bit clever for some tricks later on. Usually we would just add the picture to the Print Layout. 
+> - In the `Layers` panel, click on the group 'Decorations'
+> - In the `Browser`, under the 'Data' folder, click on koala_1.jpeg
+> - Click on the `Add selected layer` button at the top of the `Browser` panel
+> - **Save your project**  
