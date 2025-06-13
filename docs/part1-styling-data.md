@@ -171,7 +171,7 @@ Map 3 is to show the suitability for Koalas in the current climatic conditions, 
 > - Right mouse click anywhere in a blank area on the toolbar at the top and select `Panels > Layer Styling Panel`  
 > ![layer styling panel](../media/layer-styling-panel.png)  
 > - In the `Layer Styling` panel, select from the drop down `Inverted Polygons'  
-> - Click on `Simple Fill` and remove the outline and change the colour to white  
+> - Click on `Simple Fill` and remove the outline and change the colour to white and then to remove the line, change the 'Stroke style' to 'No line'
 > ![inverted-polygons](../media/inverted-polygons.png)
 > - **Save your project**  
 
