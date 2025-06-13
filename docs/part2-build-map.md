@@ -36,6 +36,14 @@ nav_order: 4
 - The scale is the same for all the maps, except the the Overall Change in Temperature
 - `Position and Size` controls can be used to finely position and make the maps uniform
 
+# Let's make the map!
+There is a reference image in the Project folder and also on this website. There is also a template that can be used (a4_iccb_v8.qpt). If we are running out of time, we will use the print layout already loaded. 
+
+## 1 Create a map
+
+> - Click on `Project > New Print layout`
+> - Give it a name 'ICCB Koala A4 v1'
+
 ## 1 Set up the map text type
 
 > - **Save your project**
