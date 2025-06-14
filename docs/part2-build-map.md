@@ -391,11 +391,14 @@ The scale bar option has many options, including the scale text known as `Numeri
 > - In the `Item Properties` Change font via `Appearance > Font`
 > - **Save your project**
 
-Add in the data credentials text. The interesting aspect here is that if the data has an attribution in the Layer properties under Metadata/Access/Rights, we can bring it in using dynamic text. 
+Add in the data credentials text. The interesting aspect here is that if the data has an attribution in the Layer properties including under Metadata/Access/Rights , we can bring it in using dynamic text. This can be used easily with freetext as well. 
 
 ![data-attribution](../media/data-attribution.png)  
 
-
+> - Click the `Add label` tool from the toolbox toolbar
+> - Draw a rectangle at the bottom left of the page
+> - Type: 'Data: '
+> - Select the `Dropdown
 
 
 ## 8 Add in the titles
