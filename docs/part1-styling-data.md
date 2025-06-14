@@ -14,7 +14,7 @@ We will cover the following:
 - Create Map themes
 
 # Let's start!
-> - Load up from the data folder: Products\ICCB_Koala_data.qgz
+> - Load up from the data folder: *Products\ICCB_Koala_data.qgz*
   
 # Efficiencies
 
