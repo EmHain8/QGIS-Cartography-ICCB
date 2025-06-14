@@ -15,3 +15,5 @@ In this course, we will endeavour to learn about:
 Producing a cartographic product is important to effectively display the results of your investigation. It’s incredible that ALL of that work can be simply represented, but then, that shows a element of success in your work.
 
 A cartographic product does not just have to be a map with traditional marginalia around it #retro! However it is required sometimes for legislative reasons and reporting to clients when you are in a consulting position. What we are going to produce here is a cartographic product that will display the information you are discussing in a visual sense.
+
+The whole course can be found at the [ICCB - Open Geospatial Tools](https://geospatial-community.github.io/ICCB_geospatial_tools_conservation/) run by Geospatial Share Community of Practice.
