@@ -387,19 +387,30 @@ But as we need to itlaicised the scientific name, we need to turn this into HTML
 > - **Save your project**
 
 ## 7 Scale bar and text
-The scale bar option has many options, including the scale text known as `Numeric` or the actual bar
+The scale bar option has many options, including the scale text known as `Numeric` or different visual reqpresentations of the bar
 
 > - On the top menu `Add Item > Add Scale Bar`
-> - Draw a box to place the Scale Bar anywhere on the map (we will move it later)
+> - Draw a box to place the Scale Bar on the lower right
 > - Link the scale item to Map 3
+> - Select the type as 'Numeric' - this gives us out scale text statement e.g. 1:32 000 000
 
 *Remember all of our maps are 1:3 200 000 (except map 2), so this scalebar wil pertain to all the lower maps and AOI*
 
 > - In the `Item Properties` Change font via `Appearance > Font`
 > - In the font properties, change the size to 8pt
 > - Click the back button
-> - 
+> - Make sure this text is located close to the lower right edge of the page
+> - Under `Appearance` click `Alignment` to 'Right'
 > - **Save your project**
+
+Now we are going to add in the scale bar. 
+
+> - On the top menu `Add Item > Add Scale Bar`
+> - Draw a box to place the Scale Bar anywhere on the map (we will move it later)
+> - Link the scale item to Map 3
+> - Select the type as 'Numeric'
+
+![scale](../media/scale.png)  
 
 Add in the data credentials text. The interesting aspect here is that if the data has an attribution in the Layer properties including under Metadata/Access/Rights , we can bring it in using dynamic text. This can be used easily with freetext as well. 
 
@@ -446,7 +457,7 @@ When drawing a map from scratch, to get the spacing right, you can use the follo
   - length/fraction
      - To place halfway on an A4: 297/2
      - To place three quarters on an A4: 297*0.75
-   ![Placement using X](../media/x_placement.png)
+   ![Placement using X](../media/x_placement_2.png)
  
 - When trying to get the unfiform spacing between windows, much like the upper elements:
   - Use the shape tool and set the required width e.g. 5mm and manually move it between the items and align the items to it
