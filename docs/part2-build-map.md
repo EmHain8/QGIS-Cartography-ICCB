@@ -39,7 +39,7 @@ nav_order: 4
 # Let's make the map!
 There is a reference image in the Project folder and also on this website. There is also a template that can be used (a4_iccb_v8.qpt). If we are running out of time, we will use the print layout already loaded.  
 
-## 1 Create a map
+## 1 Build a map
 
 > - Click on `Project > New Print layout`
 > - Give it a name 'ICCB Koala A4 v1'
@@ -69,7 +69,7 @@ From left to right, those highlighted are:
 - Add map
 - Add shape
 
-## 1 Set up the map text type
+## 2 Set up the map text type
 Did you know you can set the text for the whole print layout - this saves so much time. For this product, we are going to use Roboto.  
 
 > - Click on `Settings > Layout Options`
@@ -78,7 +78,7 @@ Did you know you can set the text for the whole print layout - this saves so muc
 > - Click 'OK'
 > - **Save your project**
 
-## 2 Add in the decorations
+## 3 Add in the decorations
 Lets add in the rectangles that are in the background for the upper part of the page.  
 First, lets create the green rectangle:  
 
@@ -103,7 +103,7 @@ First, lets create the green rectangle:
 > - Make sure it sits under the green rectangle
 > - **Save your project**
 
-## 3 Add in the koala
+## 4 Add in the koala
 Because we want to create a rounded frame around the koala, we need to add it as a map feature. 
 
 > - Click the `Add map` button on the toolbox toolbar
@@ -148,7 +148,7 @@ Now we are going to make it fancy by giving it a rounded frame
 
  
 
-## 4 Add in the map windows
+## 5 Add in the map windows
 Let's add the map windows - there are 5 and most of them are the same size (or close to it). So we add one and then copy it over and change the map theme. Saves time! 
 **Let's start with the map - 1 AOI**
 
@@ -241,7 +241,7 @@ If the map is not fully in the frame, move it using the `Move item content` tool
 
 > - In the `Items` move maps 3-5 to sit below the pink rectangle
 
-## 5 Add in the legends
+## 6 Add in the legends
 The legend operations in QGIS is super powerful and there is ongoing development work. North Road has developed quite a few of the functions you will use. You don't have to accept how a legend item comes in. You can change how it looks, through sizing, font and formats. We are going to amend the text and size of the legends and also add in some proxy legends for visual purposes. 
 
 Let's start with map 3 - Climatic suitability for koalas
@@ -346,21 +346,7 @@ For some reason, the scenario dataset is not showing up, so we are going to crea
 
 ![legend-item-properties](../media/legend-item-properties.png)  
 
-## 6 Add in the text
-Let's add in the titles.
-- Main title - Koala Conservation under Climate Change (Roboto black white 21pt)
-
-On the maps: 
-- Map 1 - South-East Queensland (white 10pt)
-- Map 2 - Overall Change in Temperature (SSP370 ) (white 10pt)
-
-At the bottom of the maps:
-
-- Map 3 - Climatic suitability for koalas (black 12pt)
-- Map 4 - Projected suitability change (SSP370), current to 2090 (black 12pt)
-- Map 5 - Priority areas for conservation (black 12pt)
-
-
+## 7 Add in the text
 ### Problem statement to add
 The text we want to use is:  
 
@@ -373,6 +359,7 @@ But as we need to itlaicised the scientific name, we need to turn this into HTML
 <p>Climate change poses additional threats through increased frequency of heatwaves, droughts, and bushfires, which reduce food quality, water availability, and suitable habitat. </p>
 <p>This workshop set out to apply open source geospatial tools to better understanding how future climate may impact these populations, and how resources can be best directed towards conserving this iconic species. </p>
 ```
+
 > - Click on the text button in the `Toolbox` toolbar
 > - Draw a square between the AOI and Climate map on the pink background
 > - Copy and paste the above htmml text
@@ -388,7 +375,7 @@ But as we need to itlaicised the scientific name, we need to turn this into HTML
 > - In the Appearance, set the `Horizontal alignment` to 'Justify'
 > - **Save your project**
 
-## 7 Scale bar and text
+## 9 Scale bar
 The scale bar option has many options, including the scale text known as `Numeric` or different visual reqpresentations of the bar
 
 > - On the top menu `Add Item > Add Scale Bar`
@@ -420,6 +407,7 @@ Now we are going to add in the scale bar.
 > - Move it so it sits nicely next to the scale text
 > - **Save your project**
 
+## 10 Data credentials
 Add in the data credentials text. The interesting aspect here is that if the data has an attribution in the Layer properties including under Metadata/Access/Rights , we can bring it in using dynamic text. This can be used easily with freetext as well. 
 
 ![data-attribution](../media/data-attribution.png)  
@@ -432,7 +420,7 @@ Add in the data credentials text. The interesting aspect here is that if the dat
 > - **Save your project**
 
 
-## 8 Add in the titles
+## 11 Add in the titles
 Let's add in the titles.
 - Main title - Koala Conservation under Climate Change (Roboto black white 21pt)
 
@@ -460,7 +448,7 @@ To do this for each one:
 Copy and paste the similar text elements to save time in styling* 
 
 
-## 9 Print your map and review it
+## 12 Print your map and review it
 QGIS allows you to print out your map to a pdf, svg, image or hardcopy. Printing out the map allows you to review it to assess for quality. 
 
 > - Click on the image or pdf output buttons at the top
