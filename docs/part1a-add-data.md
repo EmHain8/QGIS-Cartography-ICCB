@@ -1,8 +1,4 @@
----
-layout: default
-title: "Ref 1a: Add Data"
-nav_order: 
----
+
 ## Data types
 ![Course data](../media/course_datax.png)  
 In this course, we will be using vector and raster spatial data as well as images to complete our poster.  
