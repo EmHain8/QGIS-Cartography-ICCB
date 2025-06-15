@@ -391,7 +391,14 @@ The scale bar option has many options, including the scale text known as `Numeri
 
 > - On the top menu `Add Item > Add Scale Bar`
 > - Draw a box to place the Scale Bar anywhere on the map (we will move it later)
+> - Link the scale item to Map 3
+
+*Remember all of our maps are 1:3 200 000 (except map 2), so this scalebar wil pertain to all the lower maps and AOI*
+
 > - In the `Item Properties` Change font via `Appearance > Font`
+> - In the font properties, change the size to 8pt
+> - Click the back button
+> - 
 > - **Save your project**
 
 Add in the data credentials text. The interesting aspect here is that if the data has an attribution in the Layer properties including under Metadata/Access/Rights , we can bring it in using dynamic text. This can be used easily with freetext as well. 
@@ -430,3 +437,19 @@ QGIS allows you to print out your map to a pdf, svg, image or hardcopy. Printing
 > - Take on all recommendations and assess them
 > - Apply required the recommendations
 > - Print out to ...v2 and then recheck with the same and different reviewers
+
+## Things we didn't cover
+**Spacing**
+When drawing a map from scratch, to get the spacing right, you can use the following tools:
+
+- In the `Position and Size > X` field, you can set a formula to set the placement:
+  - length/fraction
+     - To place halfway on an A4: 297/2
+     - To place three quarters on an A4: 297*0.75
+   ![Placement using X](../media/x_placement.png)
+ 
+- When trying to get the unfiform spacing between windows, much like the upper elements:
+  - Use the shape tool and set the required width e.g. 5mm and manually move it between the items and align the items to it
+  - Use the Distribution tool
+  ![Distribution tool](../media/distribute.png)
+
