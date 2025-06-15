@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Ref 1a: Add Data"
-nav_order: 6
+nav_order: 
 ---
 ## Data types
 ![Course data](../media/course_datax.png)  
