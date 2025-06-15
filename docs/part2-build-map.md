@@ -39,6 +39,15 @@ nav_order: 4
 # Let's make the map!
 There is a reference image in the Project folder and also on this website. There is also a template that can be used (a4_iccb_v8.qpt). If we are running out of time, we will use the print layout already loaded.  
 
+## 1 Create a map
+
+> - Click on `Project > New Print layout`
+> - Give it a name 'ICCB Koala A4 v1'
+> - Right click on the page and click on 'Page Properties'
+> - Make sure it is A4
+> - **Save your project**
+
+Take a moment to learn how to navigate around the Print Layout
 When you navigate around the print layout screen, you have the panels and toolbars, following the logic as what is used in the Map Canvas. These all help set the parameters for the elements on the page.  
 
 ![print-items](../media/print-items.png) 
@@ -60,13 +69,7 @@ From left to right, those highlighted are:
 - Add map
 - Add shape
 
-## 1 Create a map
 
-> - Click on `Project > New Print layout`
-> - Give it a name 'ICCB Koala A4 v1'
-> - Right click on the page and click on 'Page Properties'
-> - Make sure it is A4
-> - **Save your project**
 
 ## 1 Set up the map text type
 Did you know you can set the text for the whole print layout - this saves so much time. For this product, we are going to use Roboto.  
