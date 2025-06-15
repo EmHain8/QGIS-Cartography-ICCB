@@ -13,4 +13,14 @@ nav_order: 5
 - [Discover QGIS 3.x - Second Edition, A Workbook for Classroom or Independent Study](https://locatepress.com/book/dq32) by Kurt Menke  
 - [Create and Atlas](https://docs.qgis.org/3.40/en/docs/training_manual/forestry/forest_maps.html)  
 - [OS Spatial Stack - Simon Nitz Whanganui Distric Council NZ](https://www.youtube.com/watch?v=OWKqzEBRRD8) watch and learn how they moved over to a full spatial stack
-
+- Get QGIS Support
+  - QGIS Website
+      - [Check this first](https://qgis.org/resources/hub/)
+  - Other online support: Stack Overflow, YouTube, Chatgpt & etc
+  - [QGIS Community support](https://qgis.org/resources/support/)
+    - Use these as you pose a question that others may learn from
+    - Main one
+    - Local ones e.g. QGIS Australia User List
+  - [QGIS Commercial support](https://qgis.org/resources/support/commercial-support/)
+  
+  
