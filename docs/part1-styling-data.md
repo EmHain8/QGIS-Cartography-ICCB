@@ -220,7 +220,7 @@ We are going to use the greens from our `Project colors` palette
 
 Last step for this AOI, we want to make it more transparent.  
 
-> - In `Layer Styling`, at the bottom, expand the `Lyaer Rendering` options  
+> - In `Layer Styling`, at the bottom, expand the `Layer Rendering` options  
 > - Next to `Opacity` click in the percentage field and make it 66%  
 >  ![layer-rendering](../media/layer-rendering.png)  
 
@@ -238,7 +238,9 @@ As you can see here, the QLD Imagery does not extend into the Coral Sea enough, 
  
 
 ## Map Themes
-Map themes are a great way to make sure your data is shown in the correct maps - super important when you have multiple maps in the same project or showing multiple map views (like we are doing). 
+Map themes are a way to collate selected layers together, so that they can be used in a map to show a theme. For instance, when doing an EIS (Environmental Investigation Study), you need to keep certain layers like the study area, rivers & etc but you need to change through different disciplines like flora, fauna, flooding, and other constraints.
+
+There are already map themes 3-6 loaded, so let's load 1-3. 
 
 **Map 1 - AOI**
 
