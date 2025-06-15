@@ -109,6 +109,7 @@ Because we want to create a rounded frame around the koala, we need to add it as
 > - Click the `Add map` button on the toolbox toolbar
 > - Draw the box somewhere near the upper right of the page
 > - In the `Item Properties`, check the `Follow map theme` and from the dropdown, select 6 Koala image
+> - Down towards the bottom, make sure `Background` is unchecked
 
 If it doesn't show, go back to the `Map Canvas`, right click the koala layer and select `Zoom to Layer`. To switch between the `Map Canvas` and the `Print Window` is just like switching between two open windows on your computer.  
 
@@ -367,7 +368,8 @@ Koalas (*Phascolarctos cinereus*) in South East Queensland (SEQ) inhabit fragmen
 
 But as we need to itlaicised the scientific name, we need to turn this into HTML text:
 
-```<p> Koalas (<i>Phascolarctos cinereus</i>) in South East Queensland (SEQ) inhabit fragmented eucalypt woodlands and rely heavily on Eucalyptus species for food and shelter. The population is already under pressure from habitat loss, disease (notably chlamydia), and vehicle collisions. </p>
+```html
+<p> Koalas (<i>Phascolarctos cinereus</i>) in South East Queensland (SEQ) inhabit fragmented eucalypt woodlands and rely heavily on Eucalyptus species for food and shelter. The population is already under pressure from habitat loss, disease (notably chlamydia), and vehicle collisions. </p>
 <p>Climate change poses additional threats through increased frequency of heatwaves, droughts, and bushfires, which reduce food quality, water availability, and suitable habitat. </p>
 <p>This workshop set out to apply open source geospatial tools to better understanding how future climate may impact these populations, and how resources can be best directed towards conserving this iconic species. </p>
 ```
