@@ -409,8 +409,14 @@ Now we are going to add in the scale bar.
 > - Draw a box to place the Scale Bar anywhere on the map (we will move it later)
 > - Link the scale item to Map 3
 > - Select the type as 'Numeric'
+> - Set the parameters as per the image below
+> - **Save your project**
 
-![scale](../media/scale.png)  
+![scale](../media/scalebar.png)  
+
+> - In `Appearance > Font` set the font to 6
+> - Move it so it sits nicely next to the scale text
+> - **Save your project**
 
 Add in the data credentials text. The interesting aspect here is that if the data has an attribution in the Layer properties including under Metadata/Access/Rights , we can bring it in using dynamic text. This can be used easily with freetext as well. 
 
@@ -419,7 +425,9 @@ Add in the data credentials text. The interesting aspect here is that if the dat
 > - Click the `Add label` tool from the toolbox toolbar
 > - Draw a rectangle at the bottom left of the page
 > - Type: 'Data: '
-> - Select the `Dropdown
+> - Select the `Dyanmic Text` dropdown and select 'Layer Credits'
+> - Next to it, you can add in additional credits if they aren't built into the layers as well as any other information you need to tell the viewer.
+> - **Save your project**
 
 
 ## 8 Add in the titles
@@ -435,6 +443,20 @@ At the bottom of each the maps:
 - Map 3 - Climatic suitability for koalas (black 12pt)
 - Map 4 - Projected suitability change (SSP370), current to 2090 (black 12pt)
 - Map 5 - Priority areas for conservation (black 12pt)
+
+To do this for each one:
+
+> - Click on the 'Add Text' button in the `Toolbox` toolbar
+> - Draw a box either under or on the map as per the example
+> - Enter in the text
+> - Amend the font size and color as indicated
+> - Make the Horizontal Alignment 'Center'
+> - **Save your project**
+> - Repeat for each element requiring a title
+
+*Use the enter in the text to add in multi-line text - just like in a word document.  
+Copy and paste the similar text elements to save time in styling* 
+
 
 ## 9 Print your map and review it
 QGIS allows you to print out your map to a pdf, svg, image or hardcopy. Printing out the map allows you to review it to assess for quality. 
@@ -457,10 +479,12 @@ When drawing a map from scratch, to get the spacing right, you can use the follo
   - length/fraction
      - To place halfway on an A4: 297/2
      - To place three quarters on an A4: 297*0.75
+   
    ![Placement using X](../media/x_placement_2.png)
  
 - When trying to get the unfiform spacing between windows, much like the upper elements:
   - Use the shape tool and set the required width e.g. 5mm and manually move it between the items and align the items to it
   - Use the Distribution tool
+  
   ![Distribution tool](../media/distribute.png)
 
