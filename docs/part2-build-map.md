@@ -47,7 +47,7 @@ There is a reference image in the Project folder and also on this website. There
 > - Make sure it is A4
 > - **Save your project**
 
-Take a moment to learn how to navigate around the Print Layout
+**Take a moment to learn how to navigate around the Print Layout**  
 When you navigate around the print layout screen, you have the panels and toolbars, following the logic as what is used in the Map Canvas. These all help set the parameters for the elements on the page.  
 
 ![print-items](../media/print-items.png) 
@@ -68,8 +68,6 @@ From left to right, those highlighted are:
 - Move item content
 - Add map
 - Add shape
-
-
 
 ## 1 Set up the map text type
 Did you know you can set the text for the whole print layout - this saves so much time. For this product, we are going to use Roboto.  
@@ -120,7 +118,8 @@ If it doesn't show, go back to the `Map Canvas`, right click the koala layer and
 >   - X: 255.990
 >   - Y: 0.500
 >   - Width: 48.812
->   - Height: 83.954  
+>   - Height: 83.954
+> - Switch over to the `Items` panel and name the map '6 Koala map'
 > - **Save your project**
 
 ### Add a frame**
@@ -136,16 +135,17 @@ Now we are going to make it fancy by giving it a rounded frame
 >   - Width: 38.081
 >   - Height: 59.712
 > - Click `Move item content' on the toolbox toolbar and click on the to move the koala image to it appears within the frame
-> - Switch over to the `Items` panel and name both the map (6 Koala map) and the frame (6 Koala frame)
+> - Switch over to the `Items` panel and rename this frame '6 Koala frame'
 > - **Save your project**
-> - On the top of `Item properties`, click on the last icon `Clipping Settings`
+> - Make the koala map active - as you have the frame over it, this may not be able to be selected. Use the 'Items` tab instead to make it active.
+> - Switch back to Koala's `Item properties` and in the top of this panel, click on the last icon `Clipping Settings`
 > - In the dialog, check the box `Clip to Item`
 > - From the dropdown, select '6 Koala frame'
+> - **Save your project**
 
 ![clip-shape](../media/clip-shape.png.png)
 
-> - Click the back button to return to the `Item properties`
-> - **Save your project** 
+ 
 
 ## 4 Add in the map windows
 Let's add the map windows - there are 5 and most of them are the same size (or close to it). So we add one and then copy it over and change the map theme. Saves time! 
