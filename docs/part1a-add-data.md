@@ -6,7 +6,7 @@ nav_order: 3
 
 ## Data types
 In this course, we will be using vector and raster spatial data as well as images to complete our poster.  
-Download the data via the [Get Ready page](https://emhain8.github.io./QGIS-Cartography-ICCB/docs/get-ready.html)
+Download the data from the [Get Ready page](https://emhain8.github.io./QGIS-Cartography-ICCB/docs/get-ready.html)
 ### Vector data
 Point
 
