@@ -6,6 +6,7 @@ nav_order: 6
 
 Email us at [North Road](https://north-road.com/contact/)
 
+- [QGIS plugin for Processing R Provider](https://plugins.qgis.org/plugins/processing_r/#plugin-details) - A Processing provider for connecting to the R statistics framework
 - QGIS Hub [Style resources](https://hub.qgis.org/styles/) - a place to upload and download styles to share - check out the legend patches and there are styles for habitat surveys and one called Sketchy styles which is great for hiking
 - [Spatial Thoughts OS Geospatial Learning Pathways](https://spatialthoughts.com/learning-paths/) by Ujaval Gandhi
 - [QGIS expressions, variables, data defined settings: putting it all together!](https://www.youtube.com/watch?v=h-mpUkwDdOQ) by Nyall Dawson
