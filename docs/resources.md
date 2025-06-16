@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Resources
-nav_order: 5
+nav_order: 6
 ---
 
 Email us at [North Road](https://north-road.com/contact/)
