@@ -66,16 +66,16 @@ We are going to select multiple files and load them under the group headings
 
 - First, in the `Layers` panel, click on the group 'Original data'  
 
-![Select group](../media/select_group.png)  
+![Select group](../media/select_group.png)
 
 - Then head over to the `Browser` panel and whilst holding down the ctrl key, click on 'current_distribution_RF_1.tif', and the 'seq_boundary' (in the geopackage)  
 - With all of these selected, click on the `Add selected layer` button at the top of the `Browser` panel  
 
-![Select group](../media/add-selected-layers.png)  
+![add seleced layers](../media/add-selected-layers.png)  
 
 - This results in layers nested under the 'Original data' group  
 
-![Select group](../media/group_layers.png)  
+![group layers](../media/group_layers.png)  
 
 ### Data source manager
 We are going to access some data now from the service we have loaded. We can use the `Browser` panel to do so, but to select data that only occurs in the map extent. In this instance, our Area of Interest - South East Queensland.   
