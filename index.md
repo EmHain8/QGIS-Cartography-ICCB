@@ -6,7 +6,7 @@ nav_order: 0
 # Session 5: Open Source Geospatial Tools for Conservation under Climate Change - a Koala Case Study
 # Making Beautiful Maps with QGIS!
 
-Welcome to the QGIS Cartography componment of this course
+Welcome to the QGIS Cartography componment of this course. This session was created to show the possibilities available to craft maps in QGIS from geotiffs created in R. For more processing options in QGIS with R, check out the [QGIS plugin for Processing R Provider](https://plugins.qgis.org/plugins/processing_r/#plugin-details) - A Processing provider for connecting to the R statistics framework.
 
 In this course, we will endeavour to learn about:
 - Establishing efficient workflows for repetitive work using: styles, layouts, templates
