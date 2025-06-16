@@ -1,3 +1,8 @@
+---
+layout: default
+title: "Part 1a: Add Data"
+nav_order: 3
+---
 
 ## Data types
 ![Course data](../media/course_datax.png)  
@@ -10,25 +15,26 @@ Point
 Line
 
 - Rivers
+- Queensland State border and coastline (supplied)
 
 Polygon
 
 - Local Government Boundaries
-- SEQ boundary
+- SEQ boundary (supplied)
 
 ### Raster data
-Geotiff
+Geotiffs (supplied)
 
 - current_distribution_RF_1.tiff
+- future370-current.tiff
+- predicted_current.tiff
+- scenario_4.tiff
 
 ### Additional data
-Images
+Images (supplied)
 
 - koala_1.jpeg
-- qld_tas_changes.png 
-- qld_tas_fut.png 
-- qld_tas_hist.png
-- scenario_3_lock_in.png
+
 
 All text for the captions can be found in the content.txt
 
