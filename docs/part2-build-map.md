@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Part 2: Build a Beautiful Map"
-nav_order: 4
+nav_order: 5
 ---
 
 ![End Map](../media/a4_multi-panel_v8.png)
